@@ -1,0 +1,2185 @@
+2019-05-02 18:38:33 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 18:38:33 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 18:38:33 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 18:38:33 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 18:38:33 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 18:38:33 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 18:38:33 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 18:38:34 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication/ HTTP/1.1[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 18:38:34 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 18:38:34 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=
+2019-05-02 18:38:34 DEBUG headers:283 - >> Accept: */*
+2019-05-02 18:38:34 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 18:38:34 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 18:38:34 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 18:38:34 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 18:38:34 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 18:38:34 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 13:08:30 GMT[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  << "Content-Length: 148[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  << "Cache-Control: max-age=0[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  << "Expires: Thu, 02 May 2019 13:08:30 GMT[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  << "X-Proxy-Cache: BYPASS[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 18:38:34 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 18:38:34 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-05-02 18:38:34 DEBUG headers:264 - << HTTP/1.1 200 OK
+2019-05-02 18:38:34 DEBUG headers:267 - << Server: nginx
+2019-05-02 18:38:34 DEBUG headers:267 - << Date: Thu, 02 May 2019 13:08:30 GMT
+2019-05-02 18:38:34 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 18:38:34 DEBUG headers:267 - << Content-Length: 148
+2019-05-02 18:38:34 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 18:38:34 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 18:38:34 DEBUG headers:267 - << Cache-Control: max-age=0
+2019-05-02 18:38:34 DEBUG headers:267 - << Expires: Thu, 02 May 2019 13:08:30 GMT
+2019-05-02 18:38:34 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 18:38:34 DEBUG headers:267 - << X-Proxy-Cache: BYPASS
+2019-05-02 18:38:34 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 18:38:34 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 18:38:34 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 18:38:34 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 18:38:34 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 18:38:34 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 18:38:34 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 18:38:34 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 18:38:34 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 18:38:34 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 18:38:34 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:57525<->184.154.68.154:80 closed
+2019-05-02 18:39:00 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 18:39:00 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 18:39:00 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 18:39:00 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 18:39:00 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 18:39:00 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 18:39:00 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 18:39:00 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication/ HTTP/1.1[\r][\n]"
+2019-05-02 18:39:00 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=[\r][\n]"
+2019-05-02 18:39:00 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 18:39:00 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 18:39:00 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 18:39:00 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 18:39:00 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 18:39:00 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 18:39:00 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 18:39:00 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 18:39:00 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=
+2019-05-02 18:39:00 DEBUG headers:283 - >> Accept: */*
+2019-05-02 18:39:00 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 18:39:00 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 18:39:00 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 18:39:00 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 18:39:00 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 18:39:01 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-02 18:39:01 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 18:39:01 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 13:08:57 GMT[\r][\n]"
+2019-05-02 18:39:01 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 18:39:01 DEBUG wire:72 -  << "Content-Length: 148[\r][\n]"
+2019-05-02 18:39:01 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 18:39:01 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 18:39:01 DEBUG wire:72 -  << "Cache-Control: max-age=0[\r][\n]"
+2019-05-02 18:39:01 DEBUG wire:72 -  << "Expires: Thu, 02 May 2019 13:08:57 GMT[\r][\n]"
+2019-05-02 18:39:01 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 18:39:01 DEBUG wire:72 -  << "X-Proxy-Cache: BYPASS[\r][\n]"
+2019-05-02 18:39:01 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 18:39:01 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 18:39:01 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 18:39:01 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-05-02 18:39:01 DEBUG headers:264 - << HTTP/1.1 200 OK
+2019-05-02 18:39:01 DEBUG headers:267 - << Server: nginx
+2019-05-02 18:39:01 DEBUG headers:267 - << Date: Thu, 02 May 2019 13:08:57 GMT
+2019-05-02 18:39:01 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 18:39:01 DEBUG headers:267 - << Content-Length: 148
+2019-05-02 18:39:01 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 18:39:01 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 18:39:01 DEBUG headers:267 - << Cache-Control: max-age=0
+2019-05-02 18:39:01 DEBUG headers:267 - << Expires: Thu, 02 May 2019 13:08:57 GMT
+2019-05-02 18:39:01 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 18:39:01 DEBUG headers:267 - << X-Proxy-Cache: BYPASS
+2019-05-02 18:39:01 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 18:39:01 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 18:39:01 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 18:39:01 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 18:39:01 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 18:39:01 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 18:39:01 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 18:39:01 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 18:39:01 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 18:39:01 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 18:39:01 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:57531<->184.154.68.154:80 closed
+2019-05-02 18:39:29 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 18:39:29 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 18:39:29 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 18:39:29 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 18:39:29 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 18:39:29 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 18:39:29 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 18:39:29 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication/ HTTP/1.1[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcg==[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 18:39:29 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 18:39:29 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcg==
+2019-05-02 18:39:29 DEBUG headers:283 - >> Accept: */*
+2019-05-02 18:39:29 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 18:39:29 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 18:39:29 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 18:39:29 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 18:39:29 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 18:39:29 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 13:09:26 GMT[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  << "Content-Length: 103[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 18:39:29 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 18:39:29 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 18:39:29 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 18:39:29 DEBUG headers:267 - << Server: nginx
+2019-05-02 18:39:29 DEBUG headers:267 - << Date: Thu, 02 May 2019 13:09:26 GMT
+2019-05-02 18:39:29 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 18:39:29 DEBUG headers:267 - << Content-Length: 103
+2019-05-02 18:39:29 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 18:39:29 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 18:39:29 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 18:39:29 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 18:39:29 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 18:39:29 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 18:39:29 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 18:39:29 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 18:39:29 DEBUG DefaultHttpClient:111 - Response contains no authentication challenges
+2019-05-02 18:39:29 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 18:39:29 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 18:39:29 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 18:39:29 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 18:39:29 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 18:39:29 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 18:39:29 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 18:39:30 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:57540<->184.154.68.154:80 closed
+2019-05-02 18:43:06 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 18:43:06 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 18:43:06 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 18:43:06 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 18:43:06 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 18:43:06 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 18:43:06 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 18:43:06 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication/ HTTP/1.1[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcg==[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 18:43:06 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 18:43:06 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcg==
+2019-05-02 18:43:06 DEBUG headers:283 - >> Accept: */*
+2019-05-02 18:43:06 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 18:43:06 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 18:43:06 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 18:43:06 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 18:43:06 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 18:43:06 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 13:13:02 GMT[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  << "Content-Length: 103[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 18:43:06 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 18:43:06 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 18:43:06 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 18:43:06 DEBUG headers:267 - << Server: nginx
+2019-05-02 18:43:06 DEBUG headers:267 - << Date: Thu, 02 May 2019 13:13:02 GMT
+2019-05-02 18:43:06 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 18:43:06 DEBUG headers:267 - << Content-Length: 103
+2019-05-02 18:43:06 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 18:43:06 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 18:43:06 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 18:43:06 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 18:43:06 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 18:43:06 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 18:43:06 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 18:43:06 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 18:43:06 DEBUG DefaultHttpClient:111 - Response contains no authentication challenges
+2019-05-02 18:43:06 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 18:43:06 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 18:43:06 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 18:43:06 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 18:43:06 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 18:43:06 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 18:43:06 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 18:43:06 DEBUG wire:86 -  << "[0xab][0xe6]R[0x0][0x2]%[0xb7][0xc4][0xd2][0x9c][0x12][0xcf][0x14]%+ [0xd3]1[0xd4]'$>4[0xd8]5([0xde][0xd3]/[0xcc][0xd1][0xc7][0xd3][0x5][0xc2][0x9]p[0xc][0xe][0xe][0xf7][0xf]rQ[0xd2][0x81]hI[0x3]i[0x1]i[0xf0][0xcc]+K[0xcc][0xc9]LQ(-N-[0xca]K[0xcc]MU[0xc8]/R(H,..[0xcf]/JQ[0xe2][0xaa][0x5][0x0][0xdf]q[0x98][0x93]b[0x0][0x0][0x0]"
+2019-05-02 18:43:06 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5c153b9e
+2019-05-02 18:43:06 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 18:43:06 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:57610<->184.154.68.154:80 closed
+2019-05-02 18:44:34 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 18:44:34 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 18:44:34 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 18:44:34 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 18:44:34 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 18:44:34 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 18:44:34 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 18:44:34 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication/ HTTP/1.1[\r][\n]"
+2019-05-02 18:44:34 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dv[\r][\n]"
+2019-05-02 18:44:34 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 18:44:34 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 18:44:34 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 18:44:34 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 18:44:34 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 18:44:34 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 18:44:34 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 18:44:34 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 18:44:34 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dv
+2019-05-02 18:44:34 DEBUG headers:283 - >> Accept: */*
+2019-05-02 18:44:34 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 18:44:34 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 18:44:34 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 18:44:34 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 18:44:34 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 18:44:35 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 18:44:35 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 18:44:35 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 13:14:31 GMT[\r][\n]"
+2019-05-02 18:44:35 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 18:44:35 DEBUG wire:72 -  << "Content-Length: 103[\r][\n]"
+2019-05-02 18:44:35 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 18:44:35 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 18:44:35 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 18:44:35 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 18:44:35 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 18:44:35 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 18:44:35 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 18:44:35 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 18:44:35 DEBUG headers:267 - << Server: nginx
+2019-05-02 18:44:35 DEBUG headers:267 - << Date: Thu, 02 May 2019 13:14:31 GMT
+2019-05-02 18:44:35 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 18:44:35 DEBUG headers:267 - << Content-Length: 103
+2019-05-02 18:44:35 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 18:44:35 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 18:44:35 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 18:44:35 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 18:44:35 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 18:44:35 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 18:44:35 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 18:44:35 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 18:44:35 DEBUG DefaultHttpClient:111 - Response contains no authentication challenges
+2019-05-02 18:44:35 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 18:44:35 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 18:44:35 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 18:44:35 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 18:44:35 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 18:44:35 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 18:44:35 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 18:44:35 DEBUG wire:86 -  << "[0xab][0xe6]R[0x0][0x2]%[0xb7][0xc4][0xd2][0x9c][0x12][0xcf][0x14]%+ [0xd3]1[0xd4]'$>4[0xd8]5([0xde][0xd3]/[0xcc][0xd1][0xc7][0xd3][0x5][0xc2][0x9]p[0xc][0xe][0xe][0xf7][0xf]rQ[0xd2][0x81]hI[0x3]i[0x1]i[0xf0][0xcc]+K[0xcc][0xc9]LQ(-N-[0xca]K[0xcc]MU[0xc8]/R(H,..[0xcf]/JQ[0xe2][0xaa][0x5][0x0][0xdf]q[0x98][0x93]b[0x0][0x0][0x0]"
+2019-05-02 18:44:35 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5c153b9e
+2019-05-02 18:44:35 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 18:44:35 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:57635<->184.154.68.154:80 closed
+2019-05-02 18:48:58 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 18:48:58 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 18:48:58 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 18:48:58 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 18:48:58 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 18:48:58 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 18:48:58 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 18:48:58 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication/ HTTP/1.1[\r][\n]"
+2019-05-02 18:48:58 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvZA==[\r][\n]"
+2019-05-02 18:48:58 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 18:48:58 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 18:48:58 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 18:48:58 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 18:48:58 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 18:48:58 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 18:48:58 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 18:48:58 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 18:48:58 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvZA==
+2019-05-02 18:48:58 DEBUG headers:283 - >> Accept: */*
+2019-05-02 18:48:58 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 18:48:58 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 18:48:58 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 18:48:58 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 18:48:58 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 18:48:59 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 18:48:59 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 18:48:59 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 13:18:55 GMT[\r][\n]"
+2019-05-02 18:48:59 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 18:48:59 DEBUG wire:72 -  << "Content-Length: 103[\r][\n]"
+2019-05-02 18:48:59 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 18:48:59 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 18:48:59 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 18:48:59 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 18:48:59 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 18:48:59 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 18:48:59 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 18:48:59 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 18:48:59 DEBUG headers:267 - << Server: nginx
+2019-05-02 18:48:59 DEBUG headers:267 - << Date: Thu, 02 May 2019 13:18:55 GMT
+2019-05-02 18:48:59 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 18:48:59 DEBUG headers:267 - << Content-Length: 103
+2019-05-02 18:48:59 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 18:48:59 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 18:48:59 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 18:48:59 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 18:48:59 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 18:48:59 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 18:48:59 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 18:48:59 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 18:48:59 DEBUG DefaultHttpClient:111 - Response contains no authentication challenges
+2019-05-02 18:48:59 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 18:48:59 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 18:48:59 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 18:48:59 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 18:48:59 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 18:48:59 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 18:48:59 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 18:48:59 DEBUG wire:86 -  << "[0xab][0xe6]R[0x0][0x2]%[0xb7][0xc4][0xd2][0x9c][0x12][0xcf][0x14]%+ [0xd3]1[0xd4]'$>4[0xd8]5([0xde][0xd3]/[0xcc][0xd1][0xc7][0xd3][0x5][0xc2][0x9]p[0xc][0xe][0xe][0xf7][0xf]rQ[0xd2][0x81]hI[0x3]i[0x1]i[0xf0][0xcc]+K[0xcc][0xc9]LQ(-N-[0xca]K[0xcc]MU[0xc8]/R(H,..[0xcf]/JQ[0xe2][0xaa][0x5][0x0][0xdf]q[0x98][0x93]b[0x0][0x0][0x0]"
+2019-05-02 18:48:59 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5c153b9e
+2019-05-02 18:48:59 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 18:48:59 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:57684<->184.154.68.154:80 closed
+2019-05-02 18:49:52 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 18:49:52 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 18:49:52 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 18:49:52 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 18:49:52 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 18:49:52 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 18:49:52 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 18:49:52 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvZA==[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 18:49:52 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 18:49:52 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvZA==
+2019-05-02 18:49:52 DEBUG headers:283 - >> Accept: */*
+2019-05-02 18:49:52 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 18:49:52 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 18:49:52 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 18:49:52 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 18:49:52 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 18:49:52 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 13:19:49 GMT[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  << "Content-Length: 103[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 18:49:52 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 18:49:52 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 18:49:52 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 18:49:52 DEBUG headers:267 - << Server: nginx
+2019-05-02 18:49:52 DEBUG headers:267 - << Date: Thu, 02 May 2019 13:19:49 GMT
+2019-05-02 18:49:52 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 18:49:52 DEBUG headers:267 - << Content-Length: 103
+2019-05-02 18:49:52 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 18:49:52 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 18:49:52 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 18:49:52 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 18:49:52 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 18:49:52 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 18:49:52 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 18:49:52 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 18:49:52 DEBUG DefaultHttpClient:111 - Response contains no authentication challenges
+2019-05-02 18:49:52 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 18:49:52 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 18:49:52 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 18:49:52 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 18:49:52 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 18:49:52 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 18:49:52 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 18:49:52 DEBUG wire:86 -  << "[0xab][0xe6]R[0x0][0x2]%[0xb7][0xc4][0xd2][0x9c][0x12][0xcf][0x14]%+ [0xd3]1[0xd4]'$>4[0xd8]5([0xde][0xd3]/[0xcc][0xd1][0xc7][0xd3][0x5][0xc2][0x9]p[0xc][0xe][0xe][0xf7][0xf]rQ[0xd2][0x81]hI[0x3]i[0x1]i[0xf0][0xcc]+K[0xcc][0xc9]LQ(-N-[0xca]K[0xcc]MU[0xc8]/R(H,..[0xcf]/JQ[0xe2][0xaa][0x5][0x0][0xdf]q[0x98][0x93]b[0x0][0x0][0x0]"
+2019-05-02 18:49:52 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5c153b9e
+2019-05-02 18:49:52 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 18:49:53 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:57696<->184.154.68.154:80 closed
+2019-05-02 19:11:59 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 19:11:59 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 19:11:59 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 19:11:59 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 19:11:59 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 19:11:59 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 19:11:59 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:11:59 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 19:11:59 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvZA==[\r][\n]"
+2019-05-02 19:11:59 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 19:11:59 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 19:11:59 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 19:11:59 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 19:11:59 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 19:11:59 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 19:11:59 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 19:11:59 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:11:59 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvZA==
+2019-05-02 19:11:59 DEBUG headers:283 - >> Accept: */*
+2019-05-02 19:11:59 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 19:11:59 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 19:11:59 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 19:11:59 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 19:11:59 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 19:12:00 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 19:12:00 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 19:12:00 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 13:41:56 GMT[\r][\n]"
+2019-05-02 19:12:00 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 19:12:00 DEBUG wire:72 -  << "Content-Length: 103[\r][\n]"
+2019-05-02 19:12:00 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 19:12:00 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 19:12:00 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 19:12:00 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 19:12:00 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 19:12:00 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 19:12:00 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 19:12:00 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 19:12:00 DEBUG headers:267 - << Server: nginx
+2019-05-02 19:12:00 DEBUG headers:267 - << Date: Thu, 02 May 2019 13:41:56 GMT
+2019-05-02 19:12:00 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 19:12:00 DEBUG headers:267 - << Content-Length: 103
+2019-05-02 19:12:00 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 19:12:00 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 19:12:00 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 19:12:00 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 19:12:00 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 19:12:00 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 19:12:00 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 19:12:00 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 19:12:00 DEBUG DefaultHttpClient:111 - Response contains no authentication challenges
+2019-05-02 19:12:00 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 19:12:00 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 19:12:00 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 19:12:00 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 19:12:00 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 19:12:00 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 19:12:00 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 19:12:00 DEBUG wire:86 -  << "[0xab][0xe6]R[0x0][0x2]%[0xb7][0xc4][0xd2][0x9c][0x12][0xcf][0x14]%+ [0xd3]1[0xd4]'$>4[0xd8]5([0xde][0xd3]/[0xcc][0xd1][0xc7][0xd3][0x5][0xc2][0x9]p[0xc][0xe][0xe][0xf7][0xf]rQ[0xd2][0x81]hI[0x3]i[0x1]i[0xf0][0xcc]+K[0xcc][0xc9]LQ(-N-[0xca]K[0xcc]MU[0xc8]/R(H,..[0xcf]/JQ[0xe2][0xaa][0x5][0x0][0xdf]q[0x98][0x93]b[0x0][0x0][0x0]"
+2019-05-02 19:12:00 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5c153b9e
+2019-05-02 19:12:00 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 19:12:00 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:58037<->184.154.68.154:80 closed
+2019-05-02 19:12:51 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 19:12:51 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 19:12:51 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 19:12:51 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 19:12:51 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 19:12:51 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 19:12:51 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:12:51 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvZA==[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 19:12:51 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:12:51 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvZA==
+2019-05-02 19:12:51 DEBUG headers:283 - >> Accept: */*
+2019-05-02 19:12:51 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 19:12:51 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 19:12:51 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 19:12:51 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 19:12:51 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 19:12:51 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 13:42:48 GMT[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  << "Content-Length: 103[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 19:12:51 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 19:12:51 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 19:12:51 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 19:12:51 DEBUG headers:267 - << Server: nginx
+2019-05-02 19:12:51 DEBUG headers:267 - << Date: Thu, 02 May 2019 13:42:48 GMT
+2019-05-02 19:12:51 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 19:12:51 DEBUG headers:267 - << Content-Length: 103
+2019-05-02 19:12:51 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 19:12:51 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 19:12:51 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 19:12:51 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 19:12:51 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 19:12:51 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 19:12:51 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 19:12:51 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 19:12:51 DEBUG DefaultHttpClient:111 - Response contains no authentication challenges
+2019-05-02 19:12:51 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 19:12:51 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 19:12:51 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 19:12:51 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 19:12:51 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 19:12:51 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 19:12:51 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 19:12:52 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:58046<->184.154.68.154:80 closed
+2019-05-02 19:13:21 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 19:13:21 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 19:13:21 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 19:13:21 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 19:13:21 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 19:13:21 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 19:13:21 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:13:21 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 19:13:21 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=[\r][\n]"
+2019-05-02 19:13:21 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 19:13:21 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 19:13:21 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 19:13:21 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 19:13:21 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 19:13:21 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 19:13:21 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 19:13:21 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:13:21 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=
+2019-05-02 19:13:21 DEBUG headers:283 - >> Accept: */*
+2019-05-02 19:13:21 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 19:13:21 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 19:13:21 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 19:13:21 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 19:13:21 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 19:13:22 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-02 19:13:22 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 19:13:22 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 13:43:18 GMT[\r][\n]"
+2019-05-02 19:13:22 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 19:13:22 DEBUG wire:72 -  << "Content-Length: 148[\r][\n]"
+2019-05-02 19:13:22 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 19:13:22 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 19:13:22 DEBUG wire:72 -  << "Cache-Control: max-age=0[\r][\n]"
+2019-05-02 19:13:22 DEBUG wire:72 -  << "Expires: Thu, 02 May 2019 13:43:18 GMT[\r][\n]"
+2019-05-02 19:13:22 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 19:13:22 DEBUG wire:72 -  << "X-Proxy-Cache: BYPASS[\r][\n]"
+2019-05-02 19:13:22 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 19:13:22 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 19:13:22 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 19:13:22 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-05-02 19:13:22 DEBUG headers:264 - << HTTP/1.1 200 OK
+2019-05-02 19:13:22 DEBUG headers:267 - << Server: nginx
+2019-05-02 19:13:22 DEBUG headers:267 - << Date: Thu, 02 May 2019 13:43:18 GMT
+2019-05-02 19:13:22 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 19:13:22 DEBUG headers:267 - << Content-Length: 148
+2019-05-02 19:13:22 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 19:13:22 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 19:13:22 DEBUG headers:267 - << Cache-Control: max-age=0
+2019-05-02 19:13:22 DEBUG headers:267 - << Expires: Thu, 02 May 2019 13:43:18 GMT
+2019-05-02 19:13:22 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 19:13:22 DEBUG headers:267 - << X-Proxy-Cache: BYPASS
+2019-05-02 19:13:22 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 19:13:22 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 19:13:22 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 19:13:22 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 19:13:22 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 19:13:22 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 19:13:22 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 19:13:22 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 19:13:22 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 19:13:22 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 19:13:22 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:58053<->184.154.68.154:80 closed
+2019-05-02 19:17:00 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 19:17:00 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 19:17:00 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 19:17:00 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 19:17:00 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 19:17:00 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 19:17:00 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:17:00 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 19:17:00 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvZA==[\r][\n]"
+2019-05-02 19:17:00 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 19:17:00 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 19:17:00 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 19:17:00 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 19:17:00 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 19:17:00 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 19:17:00 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 19:17:00 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:17:00 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvZA==
+2019-05-02 19:17:00 DEBUG headers:283 - >> Accept: */*
+2019-05-02 19:17:00 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 19:17:00 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 19:17:00 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 19:17:00 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 19:17:00 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 19:17:01 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 19:17:01 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 19:17:01 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 13:46:57 GMT[\r][\n]"
+2019-05-02 19:17:01 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 19:17:01 DEBUG wire:72 -  << "Content-Length: 103[\r][\n]"
+2019-05-02 19:17:01 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 19:17:01 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 19:17:01 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 19:17:01 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 19:17:01 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 19:17:01 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 19:17:01 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 19:17:01 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 19:17:01 DEBUG headers:267 - << Server: nginx
+2019-05-02 19:17:01 DEBUG headers:267 - << Date: Thu, 02 May 2019 13:46:57 GMT
+2019-05-02 19:17:01 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 19:17:01 DEBUG headers:267 - << Content-Length: 103
+2019-05-02 19:17:01 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 19:17:01 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 19:17:01 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 19:17:01 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 19:17:01 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 19:17:01 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 19:17:01 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 19:17:01 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 19:17:01 DEBUG DefaultHttpClient:111 - Response contains no authentication challenges
+2019-05-02 19:17:01 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 19:17:01 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 19:17:01 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 19:17:01 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 19:17:01 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 19:17:01 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 19:17:01 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 19:17:01 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:58091<->184.154.68.154:80 closed
+2019-05-02 19:17:26 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 19:17:26 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 19:17:26 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 19:17:26 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 19:17:26 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 19:17:26 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 19:17:26 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:17:26 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 19:17:26 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=[\r][\n]"
+2019-05-02 19:17:26 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 19:17:26 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 19:17:26 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 19:17:26 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 19:17:26 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 19:17:26 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 19:17:26 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 19:17:26 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:17:26 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=
+2019-05-02 19:17:26 DEBUG headers:283 - >> Accept: */*
+2019-05-02 19:17:26 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 19:17:26 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 19:17:26 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 19:17:26 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 19:17:26 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 19:17:27 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-02 19:17:27 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 19:17:27 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 13:47:23 GMT[\r][\n]"
+2019-05-02 19:17:27 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 19:17:27 DEBUG wire:72 -  << "Content-Length: 148[\r][\n]"
+2019-05-02 19:17:27 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 19:17:27 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 19:17:27 DEBUG wire:72 -  << "Cache-Control: max-age=0[\r][\n]"
+2019-05-02 19:17:27 DEBUG wire:72 -  << "Expires: Thu, 02 May 2019 13:47:23 GMT[\r][\n]"
+2019-05-02 19:17:27 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 19:17:27 DEBUG wire:72 -  << "X-Proxy-Cache: BYPASS[\r][\n]"
+2019-05-02 19:17:27 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 19:17:27 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 19:17:27 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 19:17:27 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-05-02 19:17:27 DEBUG headers:264 - << HTTP/1.1 200 OK
+2019-05-02 19:17:27 DEBUG headers:267 - << Server: nginx
+2019-05-02 19:17:27 DEBUG headers:267 - << Date: Thu, 02 May 2019 13:47:23 GMT
+2019-05-02 19:17:27 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 19:17:27 DEBUG headers:267 - << Content-Length: 148
+2019-05-02 19:17:27 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 19:17:27 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 19:17:27 DEBUG headers:267 - << Cache-Control: max-age=0
+2019-05-02 19:17:27 DEBUG headers:267 - << Expires: Thu, 02 May 2019 13:47:23 GMT
+2019-05-02 19:17:27 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 19:17:27 DEBUG headers:267 - << X-Proxy-Cache: BYPASS
+2019-05-02 19:17:27 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 19:17:27 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 19:17:27 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 19:17:27 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 19:17:27 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 19:17:27 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 19:17:27 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 19:17:27 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 19:17:27 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 19:17:27 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 19:17:27 DEBUG wire:72 -  << "M[0x8c][0xc1][\n]"
+2019-05-02 19:17:27 DEBUG wire:86 -  << "[0xc2]0[0x10][0x5][0xef][0xfd][0x8a][0x90][0xb3]_[0x90][,[0x15]z[0xb1][0xd5][0xa4]g[0x9][0xe9][0x8a][0x81]4[0x9][0xd9][\r]R[0xc4]W[0xdb]*[0xbe][0xe3]cf[0x1e][0x15]{[0x8f][0x1f]L[0xf1][0xd4][0x8e]\0[0xde][0xf5][0xcd]Y[0xea][0xb6];^[0xd4]P[0xd7][0x8d]R|[0xf7][0xc7],D[0x82]l[0xc8][0xc5][0xc0]l[0x9c][0x92][0x7][0x82][0x91]a[0xb1][0x16][0x10][0xaf][0xc5][0xfb][0xf9]+[0xc][0x8]9[0x98][0x9]Do[0x10][0xef]1/y[0x1d][0xa3][0xc7][0x93][0x14][0x1a][0x90]~[0xff]&[0xc8]B7[0x8][0xe4][0xec]Z[0xd7]s[0x82][0x8f][0xb2]7[0xe8],[0xaf][0x9e]/[0xbc]<[0x88]_[0xac][0x0][0x0][0x0]"
+2019-05-02 19:17:27 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@abf688e
+2019-05-02 19:17:27 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 19:27:34 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 19:27:34 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 19:27:34 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 19:27:34 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 19:27:34 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 19:27:34 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 19:27:34 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:27:34 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 19:27:34 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:27:34 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=
+2019-05-02 19:27:34 DEBUG headers:283 - >> Accept: */*
+2019-05-02 19:27:34 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 19:27:34 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 19:27:34 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 19:27:34 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 19:27:34 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 19:27:34 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 13:57:31 GMT[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  << "Content-Length: 148[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  << "Cache-Control: max-age=0[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  << "Expires: Thu, 02 May 2019 13:57:31 GMT[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  << "X-Proxy-Cache: BYPASS[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 19:27:34 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 19:27:34 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-05-02 19:27:34 DEBUG headers:264 - << HTTP/1.1 200 OK
+2019-05-02 19:27:34 DEBUG headers:267 - << Server: nginx
+2019-05-02 19:27:34 DEBUG headers:267 - << Date: Thu, 02 May 2019 13:57:31 GMT
+2019-05-02 19:27:34 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 19:27:34 DEBUG headers:267 - << Content-Length: 148
+2019-05-02 19:27:34 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 19:27:34 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 19:27:34 DEBUG headers:267 - << Cache-Control: max-age=0
+2019-05-02 19:27:34 DEBUG headers:267 - << Expires: Thu, 02 May 2019 13:57:31 GMT
+2019-05-02 19:27:34 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 19:27:34 DEBUG headers:267 - << X-Proxy-Cache: BYPASS
+2019-05-02 19:27:34 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 19:27:34 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 19:27:34 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 19:27:34 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 19:27:34 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 19:27:34 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 19:27:34 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 19:27:34 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 19:27:34 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 19:27:34 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 19:27:35 DEBUG wire:72 -  << "M[0x8c][0xc1][\n]"
+2019-05-02 19:27:35 DEBUG wire:86 -  << "[0xc2]0[0x10][0x5][0xef][0xfd][0x8a][0x90][0xb3]_[0x90][,[0x15]z[0xb1][0xd5][0xa4]g[0x9][0xe9][0x8a][0x81]4[0x9][0xd9][\r]R[0xc4]W[0xdb]*[0xbe][0xe3]cf[0x1e][0x15]{[0x8f][0x1f]L[0xf1][0xd4][0x8e]\0[0xde][0xf5][0xcd]Y[0xea][0xb6];^[0xd4]P[0xd7][0x8d]R|[0xf7][0xc7],D[0x82]l[0xc8][0xc5][0xc0]l[0x9c][0x92][0x7][0x82][0x91]a[0xb1][0x16][0x10][0xaf][0xc5][0xfb][0xf9]+[0xc][0x8]9[0x98][0x9]Do[0x10][0xef]1/y[0x1d][0xa3][0xc7][0x93][0x14][0x1a][0x90]~[0xff]&[0xc8]B7[0x8][0xe4][0xec]Z[0xd7]s[0x82][0x8f][0xb2]7[0xe8],[0xaf][0x9e]/[0xbc]<[0x88]_[0xac][0x0][0x0][0x0]"
+2019-05-02 19:27:35 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@183e8023
+2019-05-02 19:27:35 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 19:35:20 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 19:35:20 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 19:35:20 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 19:35:20 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 19:35:20 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 19:35:20 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 19:35:20 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:35:20 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 19:35:20 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=[\r][\n]"
+2019-05-02 19:35:20 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 19:35:20 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 19:35:20 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 19:35:20 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 19:35:20 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 19:35:20 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 19:35:20 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 19:35:20 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:35:20 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=
+2019-05-02 19:35:20 DEBUG headers:283 - >> Accept: */*
+2019-05-02 19:35:20 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 19:35:20 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 19:35:20 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 19:35:20 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 19:35:20 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 19:35:21 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-02 19:35:21 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 19:35:21 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 14:05:17 GMT[\r][\n]"
+2019-05-02 19:35:21 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 19:35:21 DEBUG wire:72 -  << "Content-Length: 148[\r][\n]"
+2019-05-02 19:35:21 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 19:35:21 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 19:35:21 DEBUG wire:72 -  << "Cache-Control: max-age=0[\r][\n]"
+2019-05-02 19:35:21 DEBUG wire:72 -  << "Expires: Thu, 02 May 2019 14:05:17 GMT[\r][\n]"
+2019-05-02 19:35:21 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 19:35:21 DEBUG wire:72 -  << "X-Proxy-Cache: BYPASS[\r][\n]"
+2019-05-02 19:35:21 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 19:35:21 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 19:35:21 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 19:35:21 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-05-02 19:35:21 DEBUG headers:264 - << HTTP/1.1 200 OK
+2019-05-02 19:35:21 DEBUG headers:267 - << Server: nginx
+2019-05-02 19:35:21 DEBUG headers:267 - << Date: Thu, 02 May 2019 14:05:17 GMT
+2019-05-02 19:35:21 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 19:35:21 DEBUG headers:267 - << Content-Length: 148
+2019-05-02 19:35:21 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 19:35:21 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 19:35:21 DEBUG headers:267 - << Cache-Control: max-age=0
+2019-05-02 19:35:21 DEBUG headers:267 - << Expires: Thu, 02 May 2019 14:05:17 GMT
+2019-05-02 19:35:21 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 19:35:21 DEBUG headers:267 - << X-Proxy-Cache: BYPASS
+2019-05-02 19:35:21 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 19:35:21 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 19:35:21 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 19:35:21 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 19:35:21 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 19:35:21 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 19:35:21 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 19:35:21 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 19:35:21 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 19:35:21 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 19:35:21 DEBUG wire:72 -  << "M[0x8c][0xc1][\n]"
+2019-05-02 19:35:21 DEBUG wire:86 -  << "[0xc2]0[0x10][0x5][0xef][0xfd][0x8a][0x90][0xb3]_[0x90][,[0x15]z[0xb1][0xd5][0xa4]g[0x9][0xe9][0x8a][0x81]4[0x9][0xd9][\r]R[0xc4]W[0xdb]*[0xbe][0xe3]cf[0x1e][0x15]{[0x8f][0x1f]L[0xf1][0xd4][0x8e]\0[0xde][0xf5][0xcd]Y[0xea][0xb6];^[0xd4]P[0xd7][0x8d]R|[0xf7][0xc7],D[0x82]l[0xc8][0xc5][0xc0]l[0x9c][0x92][0x7][0x82][0x91]a[0xb1][0x16][0x10][0xaf][0xc5][0xfb][0xf9]+[0xc][0x8]9[0x98][0x9]Do[0x10][0xef]1/y[0x1d][0xa3][0xc7][0x93][0x14][0x1a][0x90]~[0xff]&[0xc8]B7[0x8][0xe4][0xec]Z[0xd7]s[0x82][0x8f][0xb2]7[0xe8],[0xaf][0x9e]/[0xbc]<[0x88]_[0xac][0x0][0x0][0x0]"
+2019-05-02 19:35:21 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@183e8023
+2019-05-02 19:35:21 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 19:38:09 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 19:38:09 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 19:38:09 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 19:38:09 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 19:38:09 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 19:38:09 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 19:38:09 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:38:09 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 19:38:09 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=[\r][\n]"
+2019-05-02 19:38:09 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 19:38:09 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 19:38:09 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 19:38:09 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 19:38:09 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 19:38:09 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 19:38:09 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 19:38:09 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:38:09 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=
+2019-05-02 19:38:09 DEBUG headers:283 - >> Accept: */*
+2019-05-02 19:38:09 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 19:38:09 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 19:38:09 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 19:38:09 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 19:38:09 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 19:38:10 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-02 19:38:10 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 19:38:10 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 14:08:06 GMT[\r][\n]"
+2019-05-02 19:38:10 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 19:38:10 DEBUG wire:72 -  << "Content-Length: 148[\r][\n]"
+2019-05-02 19:38:10 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 19:38:10 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 19:38:10 DEBUG wire:72 -  << "Cache-Control: max-age=0[\r][\n]"
+2019-05-02 19:38:10 DEBUG wire:72 -  << "Expires: Thu, 02 May 2019 14:08:06 GMT[\r][\n]"
+2019-05-02 19:38:10 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 19:38:10 DEBUG wire:72 -  << "X-Proxy-Cache: BYPASS[\r][\n]"
+2019-05-02 19:38:10 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 19:38:10 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 19:38:10 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 19:38:10 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-05-02 19:38:10 DEBUG headers:264 - << HTTP/1.1 200 OK
+2019-05-02 19:38:10 DEBUG headers:267 - << Server: nginx
+2019-05-02 19:38:10 DEBUG headers:267 - << Date: Thu, 02 May 2019 14:08:06 GMT
+2019-05-02 19:38:10 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 19:38:10 DEBUG headers:267 - << Content-Length: 148
+2019-05-02 19:38:10 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 19:38:10 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 19:38:10 DEBUG headers:267 - << Cache-Control: max-age=0
+2019-05-02 19:38:10 DEBUG headers:267 - << Expires: Thu, 02 May 2019 14:08:06 GMT
+2019-05-02 19:38:10 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 19:38:10 DEBUG headers:267 - << X-Proxy-Cache: BYPASS
+2019-05-02 19:38:10 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 19:38:10 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 19:38:10 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 19:38:10 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 19:38:10 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 19:38:10 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 19:38:10 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 19:38:10 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 19:38:10 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 19:38:10 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 19:38:10 DEBUG wire:72 -  << "M[0x8c][0xc1][\n]"
+2019-05-02 19:38:10 DEBUG wire:86 -  << "[0xc2]0[0x10][0x5][0xef][0xfd][0x8a][0x90][0xb3]_[0x90][,[0x15]z[0xb1][0xd5][0xa4]g[0x9][0xe9][0x8a][0x81]4[0x9][0xd9][\r]R[0xc4]W[0xdb]*[0xbe][0xe3]cf[0x1e][0x15]{[0x8f][0x1f]L[0xf1][0xd4][0x8e]\0[0xde][0xf5][0xcd]Y[0xea][0xb6];^[0xd4]P[0xd7][0x8d]R|[0xf7][0xc7],D[0x82]l[0xc8][0xc5][0xc0]l[0x9c][0x92][0x7][0x82][0x91]a[0xb1][0x16][0x10][0xaf][0xc5][0xfb][0xf9]+[0xc][0x8]9[0x98][0x9]Do[0x10][0xef]1/y[0x1d][0xa3][0xc7][0x93][0x14][0x1a][0x90]~[0xff]&[0xc8]B7[0x8][0xe4][0xec]Z[0xd7]s[0x82][0x8f][0xb2]7[0xe8],[0xaf][0x9e]/[0xbc]<[0x88]_[0xac][0x0][0x0][0x0]"
+2019-05-02 19:38:10 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@45efc20d
+2019-05-02 19:38:10 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 19:38:41 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 19:38:41 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 19:38:41 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 19:38:41 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 19:38:41 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 19:38:41 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 19:38:41 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:38:41 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 19:38:41 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=[\r][\n]"
+2019-05-02 19:38:41 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 19:38:41 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 19:38:41 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 19:38:41 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 19:38:41 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 19:38:41 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 19:38:41 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 19:38:41 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:38:41 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=
+2019-05-02 19:38:41 DEBUG headers:283 - >> Accept: */*
+2019-05-02 19:38:41 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 19:38:41 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 19:38:41 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 19:38:41 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 19:38:41 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 19:38:42 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-02 19:38:42 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 19:38:42 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 14:08:38 GMT[\r][\n]"
+2019-05-02 19:38:42 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 19:38:42 DEBUG wire:72 -  << "Content-Length: 148[\r][\n]"
+2019-05-02 19:38:42 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 19:38:42 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 19:38:42 DEBUG wire:72 -  << "Cache-Control: max-age=0[\r][\n]"
+2019-05-02 19:38:42 DEBUG wire:72 -  << "Expires: Thu, 02 May 2019 14:08:38 GMT[\r][\n]"
+2019-05-02 19:38:42 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 19:38:42 DEBUG wire:72 -  << "X-Proxy-Cache: BYPASS[\r][\n]"
+2019-05-02 19:38:42 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 19:38:42 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 19:38:42 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 19:38:42 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-05-02 19:38:42 DEBUG headers:264 - << HTTP/1.1 200 OK
+2019-05-02 19:38:42 DEBUG headers:267 - << Server: nginx
+2019-05-02 19:38:42 DEBUG headers:267 - << Date: Thu, 02 May 2019 14:08:38 GMT
+2019-05-02 19:38:42 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 19:38:42 DEBUG headers:267 - << Content-Length: 148
+2019-05-02 19:38:42 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 19:38:42 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 19:38:42 DEBUG headers:267 - << Cache-Control: max-age=0
+2019-05-02 19:38:42 DEBUG headers:267 - << Expires: Thu, 02 May 2019 14:08:38 GMT
+2019-05-02 19:38:42 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 19:38:42 DEBUG headers:267 - << X-Proxy-Cache: BYPASS
+2019-05-02 19:38:42 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 19:38:42 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 19:38:42 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 19:38:42 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 19:38:42 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 19:38:42 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 19:38:42 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 19:38:42 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 19:38:42 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 19:38:42 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 19:38:42 DEBUG wire:72 -  << "M[0x8c][0xc1][\n]"
+2019-05-02 19:38:42 DEBUG wire:86 -  << "[0xc2]0[0x10][0x5][0xef][0xfd][0x8a][0x90][0xb3]_[0x90][,[0x15]z[0xb1][0xd5][0xa4]g[0x9][0xe9][0x8a][0x81]4[0x9][0xd9][\r]R[0xc4]W[0xdb]*[0xbe][0xe3]cf[0x1e][0x15]{[0x8f][0x1f]L[0xf1][0xd4][0x8e]\0[0xde][0xf5][0xcd]Y[0xea][0xb6];^[0xd4]P[0xd7][0x8d]R|[0xf7][0xc7],D[0x82]l[0xc8][0xc5][0xc0]l[0x9c][0x92][0x7][0x82][0x91]a[0xb1][0x16][0x10][0xaf][0xc5][0xfb][0xf9]+[0xc][0x8]9[0x98][0x9]Do[0x10][0xef]1/y[0x1d][0xa3][0xc7][0x93][0x14][0x1a][0x90]~[0xff]&[0xc8]B7[0x8][0xe4][0xec]Z[0xd7]s[0x82][0x8f][0xb2]7[0xe8],[0xaf][0x9e]/[0xbc]<[0x88]_[0xac][0x0][0x0][0x0]"
+2019-05-02 19:38:42 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@45efc20d
+2019-05-02 19:38:42 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 19:39:07 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 19:39:07 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 19:39:07 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 19:39:07 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 19:39:07 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 19:39:07 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 19:39:07 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:39:07 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 19:39:07 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=[\r][\n]"
+2019-05-02 19:39:07 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 19:39:07 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 19:39:07 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 19:39:07 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 19:39:07 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 19:39:07 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 19:39:07 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 19:39:07 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 19:39:07 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=
+2019-05-02 19:39:07 DEBUG headers:283 - >> Accept: */*
+2019-05-02 19:39:07 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 19:39:07 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 19:39:07 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 19:39:07 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 19:39:07 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 19:39:08 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-02 19:39:08 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 19:39:08 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 14:09:04 GMT[\r][\n]"
+2019-05-02 19:39:08 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 19:39:08 DEBUG wire:72 -  << "Content-Length: 148[\r][\n]"
+2019-05-02 19:39:08 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 19:39:08 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 19:39:08 DEBUG wire:72 -  << "Cache-Control: max-age=0[\r][\n]"
+2019-05-02 19:39:08 DEBUG wire:72 -  << "Expires: Thu, 02 May 2019 14:09:04 GMT[\r][\n]"
+2019-05-02 19:39:08 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 19:39:08 DEBUG wire:72 -  << "X-Proxy-Cache: BYPASS[\r][\n]"
+2019-05-02 19:39:08 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 19:39:08 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 19:39:08 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 19:39:08 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-05-02 19:39:08 DEBUG headers:264 - << HTTP/1.1 200 OK
+2019-05-02 19:39:08 DEBUG headers:267 - << Server: nginx
+2019-05-02 19:39:08 DEBUG headers:267 - << Date: Thu, 02 May 2019 14:09:04 GMT
+2019-05-02 19:39:08 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 19:39:08 DEBUG headers:267 - << Content-Length: 148
+2019-05-02 19:39:08 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 19:39:08 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 19:39:08 DEBUG headers:267 - << Cache-Control: max-age=0
+2019-05-02 19:39:08 DEBUG headers:267 - << Expires: Thu, 02 May 2019 14:09:04 GMT
+2019-05-02 19:39:08 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 19:39:08 DEBUG headers:267 - << X-Proxy-Cache: BYPASS
+2019-05-02 19:39:08 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 19:39:08 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 19:39:08 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 19:39:08 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 19:39:08 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 19:39:08 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 19:39:08 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 19:39:08 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 19:39:08 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 19:39:08 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 19:39:08 DEBUG wire:72 -  << "M[0x8c][0xc1][\n]"
+2019-05-02 19:39:08 DEBUG wire:86 -  << "[0xc2]0[0x10][0x5][0xef][0xfd][0x8a][0x90][0xb3]_[0x90][,[0x15]z[0xb1][0xd5][0xa4]g[0x9][0xe9][0x8a][0x81]4[0x9][0xd9][\r]R[0xc4]W[0xdb]*[0xbe][0xe3]cf[0x1e][0x15]{[0x8f][0x1f]L[0xf1][0xd4][0x8e]\0[0xde][0xf5][0xcd]Y[0xea][0xb6];^[0xd4]P[0xd7][0x8d]R|[0xf7][0xc7],D[0x82]l[0xc8][0xc5][0xc0]l[0x9c][0x92][0x7][0x82][0x91]a[0xb1][0x16][0x10][0xaf][0xc5][0xfb][0xf9]+[0xc][0x8]9[0x98][0x9]Do[0x10][0xef]1/y[0x1d][0xa3][0xc7][0x93][0x14][0x1a][0x90]~[0xff]&[0xc8]B7[0x8][0xe4][0xec]Z[0xd7]s[0x82][0x8f][0xb2]7[0xe8],[0xaf][0x9e]/[0xbc]<[0x88]_[0xac][0x0][0x0][0x0]"
+2019-05-02 19:39:08 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@183e8023
+2019-05-02 19:39:08 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 21:11:08 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 21:11:08 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 21:11:08 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 21:11:08 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 21:11:08 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2019-05-02 21:11:08 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 21:11:08 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 21:11:08 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 21:11:08 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 21:11:08 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 21:11:08 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 21:11:08 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 21:11:08 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 21:11:08 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 21:11:08 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 21:11:08 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 21:11:08 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 21:11:08 DEBUG headers:283 - >> Accept: */*
+2019-05-02 21:11:08 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 21:11:08 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 21:11:08 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 21:11:08 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 21:11:08 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 21:11:09 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 21:11:09 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 21:11:09 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 15:41:05 GMT[\r][\n]"
+2019-05-02 21:11:09 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 21:11:09 DEBUG wire:72 -  << "Content-Length: 120[\r][\n]"
+2019-05-02 21:11:09 DEBUG wire:72 -  << "WWW-Authenticate: Basic realm='localhost'[\r][\n]"
+2019-05-02 21:11:09 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2019-05-02 21:11:09 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 21:11:09 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 21:11:09 DEBUG wire:72 -  << "Proxy-Support: Session-Based-Authentication[\r][\n]"
+2019-05-02 21:11:09 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 21:11:09 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 21:11:09 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 21:11:09 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 21:11:09 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 21:11:09 DEBUG headers:267 - << Server: nginx
+2019-05-02 21:11:09 DEBUG headers:267 - << Date: Thu, 02 May 2019 15:41:05 GMT
+2019-05-02 21:11:09 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 21:11:09 DEBUG headers:267 - << Content-Length: 120
+2019-05-02 21:11:09 DEBUG headers:267 - << WWW-Authenticate: Basic realm='localhost'
+2019-05-02 21:11:09 DEBUG headers:267 - << Vary: Accept-Encoding
+2019-05-02 21:11:09 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 21:11:09 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 21:11:09 DEBUG headers:267 - << Proxy-Support: Session-Based-Authentication
+2019-05-02 21:11:09 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 21:11:09 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 21:11:09 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 21:11:09 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 21:11:09 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 21:11:09 DEBUG TargetAuthenticationStrategy:174 - Authentication schemes in the order of preference: [Negotiate, Kerberos, NTLM, Digest, Basic]
+2019-05-02 21:11:09 DEBUG TargetAuthenticationStrategy:203 - Challenge for Negotiate authentication scheme not available
+2019-05-02 21:11:09 DEBUG TargetAuthenticationStrategy:203 - Challenge for Kerberos authentication scheme not available
+2019-05-02 21:11:09 DEBUG TargetAuthenticationStrategy:203 - Challenge for NTLM authentication scheme not available
+2019-05-02 21:11:09 DEBUG TargetAuthenticationStrategy:203 - Challenge for Digest authentication scheme not available
+2019-05-02 21:11:09 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 21:11:09 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 21:11:09 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 21:11:09 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 21:11:09 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 21:11:09 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 21:11:09 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 21:11:09 DEBUG wire:86 -  << "[0xab][0xe6]R[0x0][0x2][0xa5][0xe0][0x92][0xc4][0x92][0xd2]bO[0x17]%+[0x5]%7[0xc7]P[0x9f][0x90][0xf8][0xd0]`[0xd7][0xa0]xO[0xbf]0G[0x1f]O[0x17][0x8]'[0xc0]188[0xdc]?[0xc8]EI[0x7]Y[0xf]H[0x87]g^YbNf[0x8a]B~[0x91]BjEAfQj[0x8a][0x82]ciIFj^IfrbIf~[0x9e]Bvj[0xa5]BAQ~YfJj[0x8a][0x12]W-[0x0][0xf9][0x89]3uv[0x0][0x0][0x0]"
+2019-05-02 21:11:09 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5a7005d
+2019-05-02 21:11:09 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 21:13:09 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 21:13:09 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 21:13:09 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 21:13:09 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 21:13:09 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2019-05-02 21:13:09 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 21:13:09 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 21:13:09 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 21:13:09 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 21:13:09 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 21:13:09 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 21:13:09 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 21:13:09 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 21:13:09 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 21:13:09 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 21:13:09 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 21:13:09 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 21:13:09 DEBUG headers:283 - >> Accept: */*
+2019-05-02 21:13:09 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 21:13:09 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 21:13:09 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 21:13:09 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 21:13:09 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 21:13:10 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 21:13:10 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 21:13:10 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 15:43:06 GMT[\r][\n]"
+2019-05-02 21:13:10 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 21:13:10 DEBUG wire:72 -  << "Content-Length: 120[\r][\n]"
+2019-05-02 21:13:10 DEBUG wire:72 -  << "WWW-Authenticate: Basic realm='localhost'[\r][\n]"
+2019-05-02 21:13:10 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2019-05-02 21:13:10 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 21:13:10 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 21:13:10 DEBUG wire:72 -  << "Proxy-Support: Session-Based-Authentication[\r][\n]"
+2019-05-02 21:13:10 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 21:13:10 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 21:13:10 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 21:13:10 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 21:13:10 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 21:13:10 DEBUG headers:267 - << Server: nginx
+2019-05-02 21:13:10 DEBUG headers:267 - << Date: Thu, 02 May 2019 15:43:06 GMT
+2019-05-02 21:13:10 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 21:13:10 DEBUG headers:267 - << Content-Length: 120
+2019-05-02 21:13:10 DEBUG headers:267 - << WWW-Authenticate: Basic realm='localhost'
+2019-05-02 21:13:10 DEBUG headers:267 - << Vary: Accept-Encoding
+2019-05-02 21:13:10 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 21:13:10 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 21:13:10 DEBUG headers:267 - << Proxy-Support: Session-Based-Authentication
+2019-05-02 21:13:10 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 21:13:10 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 21:13:10 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 21:13:10 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 21:13:10 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 21:13:10 DEBUG TargetAuthenticationStrategy:174 - Authentication schemes in the order of preference: [Negotiate, Kerberos, NTLM, Digest, Basic]
+2019-05-02 21:13:10 DEBUG TargetAuthenticationStrategy:203 - Challenge for Negotiate authentication scheme not available
+2019-05-02 21:13:10 DEBUG TargetAuthenticationStrategy:203 - Challenge for Kerberos authentication scheme not available
+2019-05-02 21:13:10 DEBUG TargetAuthenticationStrategy:203 - Challenge for NTLM authentication scheme not available
+2019-05-02 21:13:10 DEBUG TargetAuthenticationStrategy:203 - Challenge for Digest authentication scheme not available
+2019-05-02 21:13:10 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 21:13:10 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 21:13:10 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 21:13:10 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 21:13:10 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 21:13:10 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 21:13:10 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 21:13:10 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:59456<->184.154.68.154:80 closed
+2019-05-02 21:26:33 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 21:26:33 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 21:26:33 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 21:26:33 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 21:26:33 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2019-05-02 21:26:33 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 21:26:33 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 21:26:33 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 21:26:33 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 21:26:33 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 21:26:33 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 21:26:34 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 21:26:34 DEBUG headers:283 - >> Accept: */*
+2019-05-02 21:26:34 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 21:26:34 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 21:26:34 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 21:26:34 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 21:26:34 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 21:26:34 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 15:56:30 GMT[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  << "Content-Length: 120[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  << "WWW-Authenticate: Basic realm='localhost'[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  << "Proxy-Support: Session-Based-Authentication[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 21:26:34 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 21:26:34 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 21:26:34 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 21:26:34 DEBUG headers:267 - << Server: nginx
+2019-05-02 21:26:34 DEBUG headers:267 - << Date: Thu, 02 May 2019 15:56:30 GMT
+2019-05-02 21:26:34 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 21:26:34 DEBUG headers:267 - << Content-Length: 120
+2019-05-02 21:26:34 DEBUG headers:267 - << WWW-Authenticate: Basic realm='localhost'
+2019-05-02 21:26:34 DEBUG headers:267 - << Vary: Accept-Encoding
+2019-05-02 21:26:34 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 21:26:34 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 21:26:34 DEBUG headers:267 - << Proxy-Support: Session-Based-Authentication
+2019-05-02 21:26:34 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 21:26:34 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 21:26:34 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 21:26:34 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 21:26:34 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 21:26:34 DEBUG TargetAuthenticationStrategy:174 - Authentication schemes in the order of preference: [Negotiate, Kerberos, NTLM, Digest, Basic]
+2019-05-02 21:26:34 DEBUG TargetAuthenticationStrategy:203 - Challenge for Negotiate authentication scheme not available
+2019-05-02 21:26:34 DEBUG TargetAuthenticationStrategy:203 - Challenge for Kerberos authentication scheme not available
+2019-05-02 21:26:34 DEBUG TargetAuthenticationStrategy:203 - Challenge for NTLM authentication scheme not available
+2019-05-02 21:26:34 DEBUG TargetAuthenticationStrategy:203 - Challenge for Digest authentication scheme not available
+2019-05-02 21:26:34 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 21:26:34 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 21:26:34 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 21:26:34 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 21:26:34 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 21:26:34 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 21:26:34 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 21:26:34 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:59654<->184.154.68.154:80 closed
+2019-05-02 21:30:15 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 21:30:15 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 21:30:15 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 21:30:15 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 21:30:15 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2019-05-02 21:30:15 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 21:30:15 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 21:30:15 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 21:30:15 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 21:30:15 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 21:30:15 DEBUG headers:283 - >> Accept: */*
+2019-05-02 21:30:15 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 21:30:15 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 21:30:15 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 21:30:15 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 21:30:15 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 21:30:15 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 16:00:12 GMT[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  << "Content-Length: 120[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  << "WWW-Authenticate: Basic realm='localhost'[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  << "Proxy-Support: Session-Based-Authentication[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 21:30:15 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 21:30:15 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 21:30:15 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 21:30:15 DEBUG headers:267 - << Server: nginx
+2019-05-02 21:30:15 DEBUG headers:267 - << Date: Thu, 02 May 2019 16:00:12 GMT
+2019-05-02 21:30:15 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 21:30:15 DEBUG headers:267 - << Content-Length: 120
+2019-05-02 21:30:15 DEBUG headers:267 - << WWW-Authenticate: Basic realm='localhost'
+2019-05-02 21:30:15 DEBUG headers:267 - << Vary: Accept-Encoding
+2019-05-02 21:30:15 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 21:30:15 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 21:30:15 DEBUG headers:267 - << Proxy-Support: Session-Based-Authentication
+2019-05-02 21:30:15 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 21:30:15 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 21:30:15 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 21:30:15 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 21:30:15 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 21:30:15 DEBUG TargetAuthenticationStrategy:174 - Authentication schemes in the order of preference: [Negotiate, Kerberos, NTLM, Digest, Basic]
+2019-05-02 21:30:15 DEBUG TargetAuthenticationStrategy:203 - Challenge for Negotiate authentication scheme not available
+2019-05-02 21:30:15 DEBUG TargetAuthenticationStrategy:203 - Challenge for Kerberos authentication scheme not available
+2019-05-02 21:30:15 DEBUG TargetAuthenticationStrategy:203 - Challenge for NTLM authentication scheme not available
+2019-05-02 21:30:15 DEBUG TargetAuthenticationStrategy:203 - Challenge for Digest authentication scheme not available
+2019-05-02 21:30:15 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 21:30:15 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 21:30:15 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 21:30:15 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 21:30:15 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 21:30:15 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 21:30:15 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 21:30:15 DEBUG wire:86 -  << "[0xab][0xe6]R[0x0][0x2][0xa5][0xe0][0x92][0xc4][0x92][0xd2]bO[0x17]%+[0x5]%7[0xc7]P[0x9f][0x90][0xf8][0xd0]`[0xd7][0xa0]xO[0xbf]0G[0x1f]O[0x17][0x8]'[0xc0]188[0xdc]?[0xc8]EI[0x7]Y[0xf]H[0x87]g^YbNf[0x8a]B~[0x91]BjEAfQj[0x8a][0x82]ciIFj^IfrbIf~[0x9e]Bvj[0xa5]BAQ~YfJj[0x8a][0x12]W-[0x0][0xf9][0x89]3uv[0x0][0x0][0x0]"
+2019-05-02 21:30:15 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5bc9ba1d
+2019-05-02 21:30:15 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 21:40:56 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 21:40:56 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 21:40:56 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 21:40:56 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 21:40:56 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2019-05-02 21:40:56 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 21:40:56 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 21:40:56 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 21:40:56 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 21:40:56 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 21:40:56 DEBUG headers:283 - >> Accept: */*
+2019-05-02 21:40:56 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 21:40:56 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 21:40:56 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 21:40:56 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 21:40:56 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 21:40:56 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 16:10:53 GMT[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  << "Content-Length: 120[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  << "WWW-Authenticate: Basic realm='localhost'[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  << "Proxy-Support: Session-Based-Authentication[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 21:40:56 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 21:40:56 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 21:40:56 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 21:40:56 DEBUG headers:267 - << Server: nginx
+2019-05-02 21:40:56 DEBUG headers:267 - << Date: Thu, 02 May 2019 16:10:53 GMT
+2019-05-02 21:40:56 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 21:40:56 DEBUG headers:267 - << Content-Length: 120
+2019-05-02 21:40:56 DEBUG headers:267 - << WWW-Authenticate: Basic realm='localhost'
+2019-05-02 21:40:56 DEBUG headers:267 - << Vary: Accept-Encoding
+2019-05-02 21:40:56 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 21:40:56 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 21:40:56 DEBUG headers:267 - << Proxy-Support: Session-Based-Authentication
+2019-05-02 21:40:56 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 21:40:56 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 21:40:56 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 21:40:56 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 21:40:56 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 21:40:56 DEBUG TargetAuthenticationStrategy:174 - Authentication schemes in the order of preference: [Negotiate, Kerberos, NTLM, Digest, Basic]
+2019-05-02 21:40:56 DEBUG TargetAuthenticationStrategy:203 - Challenge for Negotiate authentication scheme not available
+2019-05-02 21:40:56 DEBUG TargetAuthenticationStrategy:203 - Challenge for Kerberos authentication scheme not available
+2019-05-02 21:40:56 DEBUG TargetAuthenticationStrategy:203 - Challenge for NTLM authentication scheme not available
+2019-05-02 21:40:56 DEBUG TargetAuthenticationStrategy:203 - Challenge for Digest authentication scheme not available
+2019-05-02 21:40:56 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 21:40:56 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 21:40:56 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 21:40:56 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 21:40:56 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 21:40:56 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 21:40:56 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 21:40:57 DEBUG wire:86 -  << "[0xab][0xe6]R[0x0][0x2][0xa5][0xe0][0x92][0xc4][0x92][0xd2]bO[0x17]%+[0x5]%7[0xc7]P[0x9f][0x90][0xf8][0xd0]`[0xd7][0xa0]xO[0xbf]0G[0x1f]O[0x17][0x8]'[0xc0]188[0xdc]?[0xc8]EI[0x7]Y[0xf]H[0x87]g^YbNf[0x8a]B~[0x91]BjEAfQj[0x8a][0x82]ciIFj^IfrbIf~[0x9e]Bvj[0xa5]BAQ~YfJj[0x8a][0x12]W-[0x0][0xf9][0x89]3uv[0x0][0x0][0x0]"
+2019-05-02 21:40:57 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6035b93b
+2019-05-02 21:40:57 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 21:42:37 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 21:42:37 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 21:42:37 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 21:42:37 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 21:42:37 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2019-05-02 21:42:37 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 21:42:37 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 21:42:37 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 21:42:37 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 21:42:37 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 21:42:37 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 21:42:37 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 21:42:37 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 21:42:37 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 21:42:37 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 21:42:37 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 21:42:37 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 21:42:37 DEBUG headers:283 - >> Accept: */*
+2019-05-02 21:42:37 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 21:42:37 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 21:42:37 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 21:42:37 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 21:42:37 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 21:42:38 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 21:42:38 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 21:42:38 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 16:12:34 GMT[\r][\n]"
+2019-05-02 21:42:38 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 21:42:38 DEBUG wire:72 -  << "Content-Length: 120[\r][\n]"
+2019-05-02 21:42:38 DEBUG wire:72 -  << "WWW-Authenticate: Basic realm='localhost'[\r][\n]"
+2019-05-02 21:42:38 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2019-05-02 21:42:38 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 21:42:38 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 21:42:38 DEBUG wire:72 -  << "Proxy-Support: Session-Based-Authentication[\r][\n]"
+2019-05-02 21:42:38 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 21:42:38 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 21:42:38 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 21:42:38 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 21:42:38 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 21:42:38 DEBUG headers:267 - << Server: nginx
+2019-05-02 21:42:38 DEBUG headers:267 - << Date: Thu, 02 May 2019 16:12:34 GMT
+2019-05-02 21:42:38 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 21:42:38 DEBUG headers:267 - << Content-Length: 120
+2019-05-02 21:42:38 DEBUG headers:267 - << WWW-Authenticate: Basic realm='localhost'
+2019-05-02 21:42:38 DEBUG headers:267 - << Vary: Accept-Encoding
+2019-05-02 21:42:38 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 21:42:38 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 21:42:38 DEBUG headers:267 - << Proxy-Support: Session-Based-Authentication
+2019-05-02 21:42:38 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 21:42:38 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 21:42:38 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 21:42:38 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 21:42:38 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 21:42:38 DEBUG TargetAuthenticationStrategy:174 - Authentication schemes in the order of preference: [Negotiate, Kerberos, NTLM, Digest, Basic]
+2019-05-02 21:42:38 DEBUG TargetAuthenticationStrategy:203 - Challenge for Negotiate authentication scheme not available
+2019-05-02 21:42:38 DEBUG TargetAuthenticationStrategy:203 - Challenge for Kerberos authentication scheme not available
+2019-05-02 21:42:38 DEBUG TargetAuthenticationStrategy:203 - Challenge for NTLM authentication scheme not available
+2019-05-02 21:42:38 DEBUG TargetAuthenticationStrategy:203 - Challenge for Digest authentication scheme not available
+2019-05-02 21:42:38 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 21:42:38 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 21:42:38 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 21:42:38 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 21:42:38 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 21:42:38 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 21:42:38 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 21:42:38 DEBUG wire:86 -  << "[0xab][0xe6]R[0x0][0x2][0xa5][0xe0][0x92][0xc4][0x92][0xd2]bO[0x17]%+[0x5]%7[0xc7]P[0x9f][0x90][0xf8][0xd0]`[0xd7][0xa0]xO[0xbf]0G[0x1f]O[0x17][0x8]'[0xc0]188[0xdc]?[0xc8]EI[0x7]Y[0xf]H[0x87]g^YbNf[0x8a]B~[0x91]BjEAfQj[0x8a][0x82]ciIFj^IfrbIf~[0x9e]Bvj[0xa5]BAQ~YfJj[0x8a][0x12]W-[0x0][0xf9][0x89]3uv[0x0][0x0][0x0]"
+2019-05-02 21:42:38 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6035b93b
+2019-05-02 21:42:38 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 21:59:45 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 21:59:45 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 21:59:45 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 21:59:45 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 21:59:45 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2019-05-02 21:59:45 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 21:59:45 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 21:59:45 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 21:59:45 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 21:59:45 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 21:59:45 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 21:59:45 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 21:59:45 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 21:59:45 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 21:59:45 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 21:59:45 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 21:59:45 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 21:59:45 DEBUG headers:283 - >> Accept: */*
+2019-05-02 21:59:45 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 21:59:45 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 21:59:45 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 21:59:45 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 21:59:45 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 21:59:46 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 21:59:46 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 21:59:46 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 16:29:42 GMT[\r][\n]"
+2019-05-02 21:59:46 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 21:59:46 DEBUG wire:72 -  << "Content-Length: 120[\r][\n]"
+2019-05-02 21:59:46 DEBUG wire:72 -  << "WWW-Authenticate: Basic realm='localhost'[\r][\n]"
+2019-05-02 21:59:46 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2019-05-02 21:59:46 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 21:59:46 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 21:59:46 DEBUG wire:72 -  << "Proxy-Support: Session-Based-Authentication[\r][\n]"
+2019-05-02 21:59:46 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 21:59:46 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 21:59:46 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 21:59:46 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 21:59:46 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 21:59:46 DEBUG headers:267 - << Server: nginx
+2019-05-02 21:59:46 DEBUG headers:267 - << Date: Thu, 02 May 2019 16:29:42 GMT
+2019-05-02 21:59:46 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 21:59:46 DEBUG headers:267 - << Content-Length: 120
+2019-05-02 21:59:46 DEBUG headers:267 - << WWW-Authenticate: Basic realm='localhost'
+2019-05-02 21:59:46 DEBUG headers:267 - << Vary: Accept-Encoding
+2019-05-02 21:59:46 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 21:59:46 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 21:59:46 DEBUG headers:267 - << Proxy-Support: Session-Based-Authentication
+2019-05-02 21:59:46 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 21:59:46 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 21:59:46 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 21:59:46 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 21:59:46 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 21:59:46 DEBUG TargetAuthenticationStrategy:174 - Authentication schemes in the order of preference: [Negotiate, Kerberos, NTLM, Digest, Basic]
+2019-05-02 21:59:46 DEBUG TargetAuthenticationStrategy:203 - Challenge for Negotiate authentication scheme not available
+2019-05-02 21:59:46 DEBUG TargetAuthenticationStrategy:203 - Challenge for Kerberos authentication scheme not available
+2019-05-02 21:59:46 DEBUG TargetAuthenticationStrategy:203 - Challenge for NTLM authentication scheme not available
+2019-05-02 21:59:46 DEBUG TargetAuthenticationStrategy:203 - Challenge for Digest authentication scheme not available
+2019-05-02 21:59:46 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 21:59:46 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 21:59:46 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 21:59:46 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 21:59:46 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 21:59:46 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 21:59:46 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 21:59:46 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:60091<->184.154.68.154:80 closed
+2019-05-02 22:00:29 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 22:00:29 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 22:00:29 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 22:00:29 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 22:00:29 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2019-05-02 22:00:29 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 22:00:29 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 22:00:29 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 22:00:29 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 22:00:29 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 22:00:29 DEBUG headers:283 - >> Accept: */*
+2019-05-02 22:00:29 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 22:00:29 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 22:00:29 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 22:00:29 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 22:00:29 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 22:00:29 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 16:30:25 GMT[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  << "Content-Length: 120[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  << "WWW-Authenticate: Basic realm='localhost'[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  << "Proxy-Support: Session-Based-Authentication[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 22:00:29 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 22:00:29 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 22:00:29 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 22:00:29 DEBUG headers:267 - << Server: nginx
+2019-05-02 22:00:29 DEBUG headers:267 - << Date: Thu, 02 May 2019 16:30:25 GMT
+2019-05-02 22:00:29 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 22:00:29 DEBUG headers:267 - << Content-Length: 120
+2019-05-02 22:00:29 DEBUG headers:267 - << WWW-Authenticate: Basic realm='localhost'
+2019-05-02 22:00:29 DEBUG headers:267 - << Vary: Accept-Encoding
+2019-05-02 22:00:29 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 22:00:29 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 22:00:29 DEBUG headers:267 - << Proxy-Support: Session-Based-Authentication
+2019-05-02 22:00:29 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 22:00:29 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 22:00:29 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 22:00:29 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 22:00:29 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 22:00:29 DEBUG TargetAuthenticationStrategy:174 - Authentication schemes in the order of preference: [Negotiate, Kerberos, NTLM, Digest, Basic]
+2019-05-02 22:00:29 DEBUG TargetAuthenticationStrategy:203 - Challenge for Negotiate authentication scheme not available
+2019-05-02 22:00:29 DEBUG TargetAuthenticationStrategy:203 - Challenge for Kerberos authentication scheme not available
+2019-05-02 22:00:29 DEBUG TargetAuthenticationStrategy:203 - Challenge for NTLM authentication scheme not available
+2019-05-02 22:00:29 DEBUG TargetAuthenticationStrategy:203 - Challenge for Digest authentication scheme not available
+2019-05-02 22:00:29 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 22:00:29 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 22:00:29 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 22:00:29 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 22:00:29 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 22:00:29 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 22:00:29 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 22:00:30 DEBUG wire:86 -  << "[0xab][0xe6]R[0x0][0x2][0xa5][0xe0][0x92][0xc4][0x92][0xd2]bO[0x17]%+[0x5]%7[0xc7]P[0x9f][0x90][0xf8][0xd0]`[0xd7][0xa0]xO[0xbf]0G[0x1f]O[0x17][0x8]'[0xc0]188[0xdc]?[0xc8]EI[0x7]Y[0xf]H[0x87]g^YbNf[0x8a]B~[0x91]BjEAfQj[0x8a][0x82]ciIFj^IfrbIf~[0x9e]Bvj[0xa5]BAQ~YfJj[0x8a][0x12]W-[0x0][0xf9][0x89]3uv[0x0][0x0][0x0]"
+2019-05-02 22:00:30 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@58359ebd
+2019-05-02 22:00:30 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 22:01:45 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 22:01:45 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 22:01:45 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 22:01:45 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 22:01:45 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2019-05-02 22:01:45 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 22:01:45 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 22:01:45 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 22:01:45 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 22:01:45 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 22:01:45 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 22:01:45 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 22:01:45 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 22:01:45 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 22:01:45 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 22:01:45 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 22:01:45 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 22:01:45 DEBUG headers:283 - >> Accept: */*
+2019-05-02 22:01:45 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 22:01:45 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 22:01:45 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 22:01:45 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 22:01:45 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 22:01:46 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 22:01:46 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 22:01:46 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 16:31:42 GMT[\r][\n]"
+2019-05-02 22:01:46 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 22:01:46 DEBUG wire:72 -  << "Content-Length: 120[\r][\n]"
+2019-05-02 22:01:46 DEBUG wire:72 -  << "WWW-Authenticate: Basic realm='localhost'[\r][\n]"
+2019-05-02 22:01:46 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2019-05-02 22:01:46 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 22:01:46 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 22:01:46 DEBUG wire:72 -  << "Proxy-Support: Session-Based-Authentication[\r][\n]"
+2019-05-02 22:01:46 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 22:01:46 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 22:01:46 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 22:01:46 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 22:01:46 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 22:01:46 DEBUG headers:267 - << Server: nginx
+2019-05-02 22:01:46 DEBUG headers:267 - << Date: Thu, 02 May 2019 16:31:42 GMT
+2019-05-02 22:01:46 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 22:01:46 DEBUG headers:267 - << Content-Length: 120
+2019-05-02 22:01:46 DEBUG headers:267 - << WWW-Authenticate: Basic realm='localhost'
+2019-05-02 22:01:46 DEBUG headers:267 - << Vary: Accept-Encoding
+2019-05-02 22:01:46 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 22:01:46 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 22:01:46 DEBUG headers:267 - << Proxy-Support: Session-Based-Authentication
+2019-05-02 22:01:46 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 22:01:46 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 22:01:46 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 22:01:46 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 22:01:46 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 22:01:46 DEBUG TargetAuthenticationStrategy:174 - Authentication schemes in the order of preference: [Negotiate, Kerberos, NTLM, Digest, Basic]
+2019-05-02 22:01:46 DEBUG TargetAuthenticationStrategy:203 - Challenge for Negotiate authentication scheme not available
+2019-05-02 22:01:46 DEBUG TargetAuthenticationStrategy:203 - Challenge for Kerberos authentication scheme not available
+2019-05-02 22:01:46 DEBUG TargetAuthenticationStrategy:203 - Challenge for NTLM authentication scheme not available
+2019-05-02 22:01:46 DEBUG TargetAuthenticationStrategy:203 - Challenge for Digest authentication scheme not available
+2019-05-02 22:01:46 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 22:01:46 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 22:01:46 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 22:01:46 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 22:01:46 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 22:01:46 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 22:01:46 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 22:01:46 DEBUG wire:86 -  << "[0xab][0xe6]R[0x0][0x2][0xa5][0xe0][0x92][0xc4][0x92][0xd2]bO[0x17]%+[0x5]%7[0xc7]P[0x9f][0x90][0xf8][0xd0]`[0xd7][0xa0]xO[0xbf]0G[0x1f]O[0x17][0x8]'[0xc0]188[0xdc]?[0xc8]EI[0x7]Y[0xf]H[0x87]g^YbNf[0x8a]B~[0x91]BjEAfQj[0x8a][0x82]ciIFj^IfrbIf~[0x9e]Bvj[0xa5]BAQ~YfJj[0x8a][0x12]W-[0x0][0xf9][0x89]3uv[0x0][0x0][0x0]"
+2019-05-02 22:01:46 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@24b6b8f6
+2019-05-02 22:01:46 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 22:02:58 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 22:02:58 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 22:02:58 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 22:02:58 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 22:02:58 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2019-05-02 22:02:58 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 22:02:58 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 22:02:58 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 22:02:58 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 22:02:58 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 22:02:58 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 22:02:58 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 22:02:58 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 22:02:58 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 22:02:58 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 22:02:58 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 22:02:58 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 22:02:58 DEBUG headers:283 - >> Accept: */*
+2019-05-02 22:02:58 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 22:02:58 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 22:02:58 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 22:02:58 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 22:02:58 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 22:02:59 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2019-05-02 22:02:59 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 22:02:59 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 16:32:55 GMT[\r][\n]"
+2019-05-02 22:02:59 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 22:02:59 DEBUG wire:72 -  << "Content-Length: 120[\r][\n]"
+2019-05-02 22:02:59 DEBUG wire:72 -  << "WWW-Authenticate: Basic realm='localhost'[\r][\n]"
+2019-05-02 22:02:59 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2019-05-02 22:02:59 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 22:02:59 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 22:02:59 DEBUG wire:72 -  << "Proxy-Support: Session-Based-Authentication[\r][\n]"
+2019-05-02 22:02:59 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 22:02:59 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 22:02:59 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 22:02:59 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2019-05-02 22:02:59 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2019-05-02 22:02:59 DEBUG headers:267 - << Server: nginx
+2019-05-02 22:02:59 DEBUG headers:267 - << Date: Thu, 02 May 2019 16:32:55 GMT
+2019-05-02 22:02:59 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 22:02:59 DEBUG headers:267 - << Content-Length: 120
+2019-05-02 22:02:59 DEBUG headers:267 - << WWW-Authenticate: Basic realm='localhost'
+2019-05-02 22:02:59 DEBUG headers:267 - << Vary: Accept-Encoding
+2019-05-02 22:02:59 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 22:02:59 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 22:02:59 DEBUG headers:267 - << Proxy-Support: Session-Based-Authentication
+2019-05-02 22:02:59 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 22:02:59 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 22:02:59 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 22:02:59 DEBUG DefaultHttpClient:77 - Authentication required
+2019-05-02 22:02:59 DEBUG DefaultHttpClient:107 - restapi.demoqa.com:80 requested authentication
+2019-05-02 22:02:59 DEBUG TargetAuthenticationStrategy:174 - Authentication schemes in the order of preference: [Negotiate, Kerberos, NTLM, Digest, Basic]
+2019-05-02 22:02:59 DEBUG TargetAuthenticationStrategy:203 - Challenge for Negotiate authentication scheme not available
+2019-05-02 22:02:59 DEBUG TargetAuthenticationStrategy:203 - Challenge for Kerberos authentication scheme not available
+2019-05-02 22:02:59 DEBUG TargetAuthenticationStrategy:203 - Challenge for NTLM authentication scheme not available
+2019-05-02 22:02:59 DEBUG TargetAuthenticationStrategy:203 - Challenge for Digest authentication scheme not available
+2019-05-02 22:02:59 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 22:02:59 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 22:02:59 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 22:02:59 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 22:02:59 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 22:02:59 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 22:02:59 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 22:02:59 DEBUG wire:86 -  << "[0xab][0xe6]R[0x0][0x2][0xa5][0xe0][0x92][0xc4][0x92][0xd2]bO[0x17]%+[0x5]%7[0xc7]P[0x9f][0x90][0xf8][0xd0]`[0xd7][0xa0]xO[0xbf]0G[0x1f]O[0x17][0x8]'[0xc0]188[0xdc]?[0xc8]EI[0x7]Y[0xf]H[0x87]g^YbNf[0x8a]B~[0x91]BjEAfQj[0x8a][0x82]ciIFj^IfrbIf~[0x9e]Bvj[0xa5]BAQ~YfJj[0x8a][0x12]W-[0x0][0xf9][0x89]3uv[0x0][0x0][0x0]"
+2019-05-02 22:02:59 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@58359ebd
+2019-05-02 22:02:59 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 22:03:59 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 22:03:59 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 22:03:59 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 22:03:59 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 22:03:59 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 22:03:59 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 22:03:59 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 22:03:59 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication HTTP/1.1[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 22:03:59 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication HTTP/1.1
+2019-05-02 22:03:59 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=
+2019-05-02 22:03:59 DEBUG headers:283 - >> Accept: */*
+2019-05-02 22:03:59 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 22:03:59 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 22:03:59 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 22:03:59 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 22:03:59 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 22:03:59 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 16:33:56 GMT[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  << "Content-Length: 148[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  << "Cache-Control: max-age=0[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  << "Expires: Thu, 02 May 2019 16:33:56 GMT[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  << "X-Proxy-Cache: BYPASS[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 22:03:59 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 22:03:59 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-05-02 22:03:59 DEBUG headers:264 - << HTTP/1.1 200 OK
+2019-05-02 22:03:59 DEBUG headers:267 - << Server: nginx
+2019-05-02 22:03:59 DEBUG headers:267 - << Date: Thu, 02 May 2019 16:33:56 GMT
+2019-05-02 22:03:59 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 22:03:59 DEBUG headers:267 - << Content-Length: 148
+2019-05-02 22:03:59 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 22:03:59 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 22:03:59 DEBUG headers:267 - << Cache-Control: max-age=0
+2019-05-02 22:03:59 DEBUG headers:267 - << Expires: Thu, 02 May 2019 16:33:56 GMT
+2019-05-02 22:03:59 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 22:03:59 DEBUG headers:267 - << X-Proxy-Cache: BYPASS
+2019-05-02 22:03:59 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 22:03:59 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 22:03:59 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 22:03:59 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 22:03:59 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 22:03:59 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 22:03:59 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 22:03:59 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 22:03:59 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 22:03:59 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 22:04:00 DEBUG wire:72 -  << "M[0x8c][0xc1][\n]"
+2019-05-02 22:04:00 DEBUG wire:86 -  << "[0xc2]0[0x10][0x5][0xef][0xfd][0x8a][0x90][0xb3]_[0x90][,[0x15]z[0xb1][0xd5][0xa4]g[0x9][0xe9][0x8a][0x81]4[0x9][0xd9][\r]R[0xc4]W[0xdb]*[0xbe][0xe3]cf[0x1e][0x15]{[0x8f][0x1f]L[0xf1][0xd4][0x8e]\0[0xde][0xf5][0xcd]Y[0xea][0xb6];^[0xd4]P[0xd7][0x8d]R|[0xf7][0xc7],D[0x82]l[0xc8][0xc5][0xc0]l[0x9c][0x92][0x7][0x82][0x91]a[0xb1][0x16][0x10][0xaf][0xc5][0xfb][0xf9]+[0xc][0x8]9[0x98][0x9]Do[0x10][0xef]1/y[0x1d][0xa3][0xc7][0x93][0x14][0x1a][0x90]~[0xff]&[0xc8]B7[0x8][0xe4][0xec]Z[0xd7]s[0x82][0x8f][0xb2]7[0xe8],[0xaf][0x9e]/[0xbc]<[0x88]_[0xac][0x0][0x0][0x0]"
+2019-05-02 22:04:00 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@45efc20d
+2019-05-02 22:04:00 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 22:14:40 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 22:14:40 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 22:14:40 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 22:14:40 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 22:14:40 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 22:14:40 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 22:14:40 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 22:14:40 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication/ HTTP/1.1[\r][\n]"
+2019-05-02 22:14:40 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=[\r][\n]"
+2019-05-02 22:14:40 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 22:14:40 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 22:14:40 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 22:14:40 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 22:14:40 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 22:14:40 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 22:14:40 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 22:14:40 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 22:14:40 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=
+2019-05-02 22:14:40 DEBUG headers:283 - >> Accept: */*
+2019-05-02 22:14:40 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 22:14:40 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 22:14:40 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 22:14:40 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 22:14:40 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 22:14:41 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-02 22:14:41 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 22:14:41 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 16:44:37 GMT[\r][\n]"
+2019-05-02 22:14:41 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 22:14:41 DEBUG wire:72 -  << "Content-Length: 148[\r][\n]"
+2019-05-02 22:14:41 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 22:14:41 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 22:14:41 DEBUG wire:72 -  << "Cache-Control: max-age=0[\r][\n]"
+2019-05-02 22:14:41 DEBUG wire:72 -  << "Expires: Thu, 02 May 2019 16:44:37 GMT[\r][\n]"
+2019-05-02 22:14:41 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 22:14:41 DEBUG wire:72 -  << "X-Proxy-Cache: BYPASS[\r][\n]"
+2019-05-02 22:14:41 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 22:14:41 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 22:14:41 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 22:14:41 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-05-02 22:14:41 DEBUG headers:264 - << HTTP/1.1 200 OK
+2019-05-02 22:14:41 DEBUG headers:267 - << Server: nginx
+2019-05-02 22:14:41 DEBUG headers:267 - << Date: Thu, 02 May 2019 16:44:37 GMT
+2019-05-02 22:14:41 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 22:14:41 DEBUG headers:267 - << Content-Length: 148
+2019-05-02 22:14:41 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 22:14:41 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 22:14:41 DEBUG headers:267 - << Cache-Control: max-age=0
+2019-05-02 22:14:41 DEBUG headers:267 - << Expires: Thu, 02 May 2019 16:44:37 GMT
+2019-05-02 22:14:41 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 22:14:41 DEBUG headers:267 - << X-Proxy-Cache: BYPASS
+2019-05-02 22:14:41 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 22:14:41 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 22:14:41 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 22:14:41 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 22:14:41 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 22:14:41 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 22:14:41 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 22:14:41 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 22:14:41 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 22:14:41 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 22:15:30 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 22:15:30 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 22:15:30 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 22:15:30 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 22:15:30 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 22:15:30 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 22:15:30 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 22:15:30 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication/ HTTP/1.1[\r][\n]"
+2019-05-02 22:15:30 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=[\r][\n]"
+2019-05-02 22:15:30 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 22:15:30 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 22:15:30 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 22:15:30 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 22:15:30 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 22:15:30 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 22:15:30 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 22:15:30 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 22:15:30 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=
+2019-05-02 22:15:30 DEBUG headers:283 - >> Accept: */*
+2019-05-02 22:15:30 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 22:15:30 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 22:15:30 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 22:15:30 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 22:15:30 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 22:15:31 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-02 22:15:31 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 22:15:31 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 16:45:27 GMT[\r][\n]"
+2019-05-02 22:15:31 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 22:15:31 DEBUG wire:72 -  << "Content-Length: 148[\r][\n]"
+2019-05-02 22:15:31 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 22:15:31 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 22:15:31 DEBUG wire:72 -  << "Cache-Control: max-age=0[\r][\n]"
+2019-05-02 22:15:31 DEBUG wire:72 -  << "Expires: Thu, 02 May 2019 16:45:27 GMT[\r][\n]"
+2019-05-02 22:15:31 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 22:15:31 DEBUG wire:72 -  << "X-Proxy-Cache: BYPASS[\r][\n]"
+2019-05-02 22:15:31 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 22:15:31 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 22:15:31 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 22:15:31 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-05-02 22:15:31 DEBUG headers:264 - << HTTP/1.1 200 OK
+2019-05-02 22:15:31 DEBUG headers:267 - << Server: nginx
+2019-05-02 22:15:31 DEBUG headers:267 - << Date: Thu, 02 May 2019 16:45:27 GMT
+2019-05-02 22:15:31 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 22:15:31 DEBUG headers:267 - << Content-Length: 148
+2019-05-02 22:15:31 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 22:15:31 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 22:15:31 DEBUG headers:267 - << Cache-Control: max-age=0
+2019-05-02 22:15:31 DEBUG headers:267 - << Expires: Thu, 02 May 2019 16:45:27 GMT
+2019-05-02 22:15:31 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 22:15:31 DEBUG headers:267 - << X-Proxy-Cache: BYPASS
+2019-05-02 22:15:31 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 22:15:31 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 22:15:31 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 22:15:31 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 22:15:31 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 22:15:31 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 22:15:31 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 22:15:31 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 22:15:31 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 22:15:31 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 22:18:41 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 22:18:41 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 22:18:41 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 22:18:41 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 22:18:41 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 22:18:41 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 22:18:41 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 22:18:41 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication/ HTTP/1.1[\r][\n]"
+2019-05-02 22:18:41 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=[\r][\n]"
+2019-05-02 22:18:41 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 22:18:41 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 22:18:41 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 22:18:41 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 22:18:41 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 22:18:41 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 22:18:41 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 22:18:41 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 22:18:41 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=
+2019-05-02 22:18:41 DEBUG headers:283 - >> Accept: */*
+2019-05-02 22:18:41 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 22:18:41 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 22:18:41 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 22:18:41 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 22:18:41 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 22:18:42 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-02 22:18:42 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 22:18:42 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 16:48:38 GMT[\r][\n]"
+2019-05-02 22:18:42 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 22:18:42 DEBUG wire:72 -  << "Content-Length: 148[\r][\n]"
+2019-05-02 22:18:42 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 22:18:42 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 22:18:42 DEBUG wire:72 -  << "Cache-Control: max-age=0[\r][\n]"
+2019-05-02 22:18:42 DEBUG wire:72 -  << "Expires: Thu, 02 May 2019 16:48:38 GMT[\r][\n]"
+2019-05-02 22:18:42 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 22:18:42 DEBUG wire:72 -  << "X-Proxy-Cache: BYPASS[\r][\n]"
+2019-05-02 22:18:42 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 22:18:42 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 22:18:42 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 22:18:42 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-05-02 22:18:42 DEBUG headers:264 - << HTTP/1.1 200 OK
+2019-05-02 22:18:42 DEBUG headers:267 - << Server: nginx
+2019-05-02 22:18:42 DEBUG headers:267 - << Date: Thu, 02 May 2019 16:48:38 GMT
+2019-05-02 22:18:42 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 22:18:42 DEBUG headers:267 - << Content-Length: 148
+2019-05-02 22:18:42 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 22:18:42 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 22:18:42 DEBUG headers:267 - << Cache-Control: max-age=0
+2019-05-02 22:18:42 DEBUG headers:267 - << Expires: Thu, 02 May 2019 16:48:38 GMT
+2019-05-02 22:18:42 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 22:18:42 DEBUG headers:267 - << X-Proxy-Cache: BYPASS
+2019-05-02 22:18:42 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 22:18:42 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 22:18:42 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 22:18:42 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 22:18:42 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 22:18:42 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 22:18:42 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 22:18:42 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 22:18:42 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 22:18:42 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 22:19:21 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8080
+2019-05-02 22:19:21 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8080
+2019-05-02 22:19:22 DEBUG DefaultClientConnectionOperator:197 - Connect to localhost:8080 timed out. Connection will be retried using another IP address
+2019-05-02 22:19:22 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8080
+2019-05-02 22:19:23 DEBUG DefaultClientConnection:182 - Connection org.apache.http.impl.conn.DefaultClientConnection@3016fd5e closed
+2019-05-02 22:19:23 DEBUG DefaultClientConnection:166 - Connection org.apache.http.impl.conn.DefaultClientConnection@3016fd5e shut down
+2019-05-02 22:19:23 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@35d08e6c
+2019-05-02 22:40:23 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.demoqa.com:80
+2019-05-02 22:40:23 DEBUG DefaultClientConnectionOperator:176 - Connecting to restapi.demoqa.com:80
+2019-05-02 22:40:23 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-05-02 22:40:23 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-02 22:40:23 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-05-02 22:40:23 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-05-02 22:40:23 DEBUG DefaultClientConnection:276 - Sending request: GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 22:40:23 DEBUG wire:72 -  >> "GET /authentication/CheckForAuthentication/ HTTP/1.1[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  >> "Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  >> "Host: restapi.demoqa.com[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  >> "[\r][\n]"
+2019-05-02 22:40:23 DEBUG headers:280 - >> GET /authentication/CheckForAuthentication/ HTTP/1.1
+2019-05-02 22:40:23 DEBUG headers:283 - >> Authorization: Basic VG9vbHNRQTpUZXN0UGFzc3dvcmQ=
+2019-05-02 22:40:23 DEBUG headers:283 - >> Accept: */*
+2019-05-02 22:40:23 DEBUG headers:283 - >> Content-Length: 0
+2019-05-02 22:40:23 DEBUG headers:283 - >> Host: restapi.demoqa.com
+2019-05-02 22:40:23 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-05-02 22:40:23 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-02 22:40:23 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-05-02 22:40:23 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  << "Server: nginx[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  << "Date: Thu, 02 May 2019 17:10:20 GMT[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  << "Content-Length: 148[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  << "Cache-Control: max-age=0[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  << "Expires: Thu, 02 May 2019 17:10:20 GMT[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  << "X-Proxy-Cache: BYPASS[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  << "Via: HTTP/1.1 forward.http.proxy:3128[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  << "Connection: keep-alive[\r][\n]"
+2019-05-02 22:40:23 DEBUG wire:72 -  << "[\r][\n]"
+2019-05-02 22:40:23 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-05-02 22:40:23 DEBUG headers:264 - << HTTP/1.1 200 OK
+2019-05-02 22:40:23 DEBUG headers:267 - << Server: nginx
+2019-05-02 22:40:23 DEBUG headers:267 - << Date: Thu, 02 May 2019 17:10:20 GMT
+2019-05-02 22:40:23 DEBUG headers:267 - << Content-Type: application/json
+2019-05-02 22:40:23 DEBUG headers:267 - << Content-Length: 148
+2019-05-02 22:40:23 DEBUG headers:267 - << Vary: Authorization,Accept-Encoding
+2019-05-02 22:40:23 DEBUG headers:267 - << Content-Encoding: gzip
+2019-05-02 22:40:23 DEBUG headers:267 - << Cache-Control: max-age=0
+2019-05-02 22:40:23 DEBUG headers:267 - << Expires: Thu, 02 May 2019 17:10:20 GMT
+2019-05-02 22:40:23 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-05-02 22:40:23 DEBUG headers:267 - << X-Proxy-Cache: BYPASS
+2019-05-02 22:40:23 DEBUG headers:267 - << Via: HTTP/1.1 forward.http.proxy:3128
+2019-05-02 22:40:23 DEBUG headers:267 - << Connection: keep-alive
+2019-05-02 22:40:23 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-05-02 22:40:23 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2019-05-02 22:40:23 DEBUG wire:86 -  << "[0x1f]"
+2019-05-02 22:40:23 DEBUG wire:86 -  << "[0x8b]"
+2019-05-02 22:40:23 DEBUG wire:86 -  << "[0x8]"
+2019-05-02 22:40:23 DEBUG wire:86 -  << "[0x0]"
+2019-05-02 22:40:23 DEBUG wire:86 -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-05-02 22:40:23 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-05-02 22:40:24 DEBUG wire:72 -  << "M[0x8c][0xc1][\n]"
+2019-05-02 22:40:24 DEBUG wire:86 -  << "[0xc2]0[0x10][0x5][0xef][0xfd][0x8a][0x90][0xb3]_[0x90][,[0x15]z[0xb1][0xd5][0xa4]g[0x9][0xe9][0x8a][0x81]4[0x9][0xd9][\r]R[0xc4]W[0xdb]*[0xbe][0xe3]cf[0x1e][0x15]{[0x8f][0x1f]L[0xf1][0xd4][0x8e]\0[0xde][0xf5][0xcd]Y[0xea][0xb6];^[0xd4]P[0xd7][0x8d]R|[0xf7][0xc7],D[0x82]l[0xc8][0xc5][0xc0]l[0x9c][0x92][0x7][0x82][0x91]a[0xb1][0x16][0x10][0xaf][0xc5][0xfb][0xf9]+[0xc][0x8]9[0x98][0x9]Do[0x10][0xef]1/y[0x1d][0xa3][0xc7][0x93][0x14][0x1a][0x90]~[0xff]&[0xc8]B7[0x8][0xe4][0xec]Z[0xd7]s[0x82][0x8f][0xb2]7[0xe8],[0xaf][0x9e]/[0xbc]<[0x88]_[0xac][0x0][0x0][0x0]"
+2019-05-02 22:40:24 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@246f8b8b
+2019-05-02 22:40:24 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-05-02 22:40:24 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:60457<->184.154.68.154:80 closed
+2019-05-03 18:41:27 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-05-03 18:41:27 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-05-03 18:41:27 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://55.55.52.152:4444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2019-05-03 18:41:27 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://55.55.52.152:4444][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-03 18:41:27 DEBUG MainClientExec:234 - Opening connection {}->http://55.55.52.152:4444
+2019-05-03 18:41:27 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to /55.55.52.152:4444
+2019-05-03 18:41:27 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 55.55.52.152:52377<->55.55.52.152:4444
+2019-05-03 18:41:27 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-05-03 18:41:27 DEBUG MainClientExec:255 - Executing request POST /grid/console/session HTTP/1.1
+2019-05-03 18:41:27 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-05-03 18:41:27 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-05-03 18:41:27 DEBUG headers:135 - http-outgoing-0 >> POST /grid/console/session HTTP/1.1
+2019-05-03 18:41:27 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-05-03 18:41:27 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 83
+2019-05-03 18:41:27 DEBUG headers:138 - http-outgoing-0 >> Host: 55.55.52.152:4444
+2019-05-03 18:41:27 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-05-03 18:41:27 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-05-03 18:41:27 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 >> "POST /grid/console/session HTTP/1.1[\r][\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 83[\r][\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 >> "Host: 55.55.52.152:4444[\r][\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-05-03 18:41:27 DEBUG wire:86 - http-outgoing-0 >> "{"desiredCapabilities":{"browserName":"firefox","version":"","platform":"WINDOWS"}}"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "Date: Fri, 03 May 2019 13:11:27 GMT[\r][\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 7275[\r][\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "<html><head><script src='/grid/resources/org/openqa/grid/images/jquery-3.1.1.min.js'></script><script src='/grid/resources/org/openqa/grid/images/consoleservlet.js'></script><link href='/grid/resources/org/openqa/grid/images/consoleservlet.css' rel='stylesheet' type='text/css' /><link href='/grid/resources/org/openqa/grid/images/favicon.ico' rel='icon' type='image/x-icon' /><title>Grid Console</title><style>.busy { opacity : 0.4;filter: alpha(opacity=40);}</style></head><body><div id='main-content'><div id='header'><h1><a href='/grid/console'>Selenium</a></h1><h2>Grid Console v.3.141.59</h2><div><a id='helplink' target='_blank' href='https://github.com/SeleniumHQ/selenium/wiki/Grid2'>Help</a></div></div><div id='left-column'><div class='proxy'><p class='proxyname'>DefaultRemoteProxy (version : 3.141.59)<p class='proxyid'>id : http://55.55.52.152:44890, OS : mixed OS</p><div class='tabs'><ul><li class='tab' type='browsers'><a title='test slots' href='#'>Browsers</a></li><li class='tab' type='config'><a title='node configuration' href='#'>Configuration</a></li></ul></div><div class='content'><div type='browsers' class='content_detail'><p class='protocol' >WebDriver</p><p>v:<img src='/grid/resources/org/openqa/grid/images/internet_explorer.png' width='16' height='16' title='{server:CONFIG_UUID=c6a5be02-de22-453e-9b2e-71d92304dbc0, seleniumProtocol=WebDriver, browserName=internet explorer, maxInstances=1, platformName=WINDOWS, platform=WINDOWS}' />[\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "</p><p>v:<img src='/grid/resources/org/openqa/grid/images/firefox.png' width='16' height='16' title='{server:CONFIG_UUID=e12eb3d2-28c0-4317-b8e1-6dcf5131f6b8, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}' />[\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "<img src='/grid/resources/org/openqa/grid/images/firefox.png' width='16' height='16' title='{server:CONFIG_UUID=e12eb3d2-28c0-4317-b8e1-6dcf5131f6b8, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}' />[\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "<img src='/grid/resources/org/openqa/grid/images/firefox.png' width='16' height='16' title='{server:CONFIG_UUID=e12eb3d2-28c0-4317-b8e1-6dcf5131f6b8, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}' />[\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "<img src='/grid/resources/org/openqa/grid/images/firefox.png' width='16' height='16' title='{server:CONFIG_UUID=e12eb3d2-28c0-4317-b8e1-6dcf5131f6b8, seleniumProtocol=WebDriver, marionette=true, browserName=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}' />[\n]"
+2019-05-03 18:41:27 DEBUG wire:86 - http-outgoing-0 << "<img src='/grid/resources/org/openqa/grid/images/firefox.png' width='16' height='16' title='{server:CONFIG_UUID=e12eb3d2-28c0-4317-b8e1-6dcf5131f6b8, seleniumProtocol=WebDriver, marionette=true, browserName"
+2019-05-03 18:41:27 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-05-03 18:41:27 DEBUG headers:127 - http-outgoing-0 << Date: Fri, 03 May 2019 13:11:27 GMT
+2019-05-03 18:41:27 DEBUG headers:127 - http-outgoing-0 << Content-Type: text/html;charset=utf-8
+2019-05-03 18:41:27 DEBUG headers:127 - http-outgoing-0 << Content-Length: 7275
+2019-05-03 18:41:27 DEBUG headers:127 - http-outgoing-0 << Server: Jetty(9.4.z-SNAPSHOT)
+2019-05-03 18:41:27 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "=firefox, maxInstances=5, platformName=WIN10, platform=WIN10}' />[\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "</p><p>v:<img src='/grid/resources/org/openqa/grid/images/chrome.png' width='16' height='16' title='{server:CONFIG_UUID=f4638abd-471c-48e5-84a3-465a7f136b86, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}' />[\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "<img src='/grid/resources/org/openqa/grid/images/chrome.png' width='16' height='16' title='{server:CONFIG_UUID=f4638abd-471c-48e5-84a3-465a7f136b86, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}' />[\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "<img src='/grid/resources/org/openqa/grid/images/chrome.png' width='16' height='16' title='{server:CONFIG_UUID=f4638abd-471c-48e5-84a3-465a7f136b86, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}' />[\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "<img src='/grid/resources/org/openqa/grid/images/chrome.png' width='16' height='16' title='{server:CONFIG_UUID=f4638abd-471c-48e5-84a3-465a7f136b86, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}' />[\n]"
+2019-05-03 18:41:27 DEBUG wire:72 - http-outgoing-0 << "<img src='/grid/resources/org/openqa/grid/images/chrome.png' width='16' height='16' title='{server:CONFIG_UUID=f4638abd-471c-48e5-84a3-465a7f136b86, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=5, platformName=WIN10, platform=WIN10}' />[\n]"
+2019-05-03 18:41:27 DEBUG wire:86 - http-outgoing-0 << "</p></div><div type='config' class='content_detail'><p>browserTimeout: 0</p><p>debug: false</p><p>host: 55.55.52.152</p><p>port: 44890</p><p>role: node</p><p>timeout: 1800</p><p>cleanUpCycle: 5000</p><p>maxSession: 5</p><p>capabilities: Capabilities {browserName: firefox, marionette: true, maxInstances: 5, platform: WIN10, platformName: WIN10, seleniumProtocol: WebDriver, server:CONFIG_UUID: e12eb3d2-28c0-4317-b8e1-6dc...}</p><p>capabilities: Capabilities {browserName: chrome, maxInstances: 5, platform: WIN10, platformName: WIN10, seleniumProtocol: WebDriver, server:CONFIG_UUID: f4638abd-471c-48e5-84a3-465...}</p><p>capabilities: Capabilities {browserName: internet explorer, maxInstances: 1, platform: WINDOWS, platformName: WINDOWS, seleniumProtocol: WebDriver, server:CONFIG_UUID: c6a5be02-de22-453e-9b2e-71d...}</p><p>downPollingLimit: 2</p><p>hub: http://55.55.52.152:4444/grid/register</p><p>id: http://55.55.52.152:44890</p><p>nodePolling: 5000</p><p>nodeStatusCheckTimeout: 5000</p><p>proxy: org.openqa.grid.selenium.proxy.DefaultRemoteProxy</p><p>register: true</p><p>registerCycle: 5000</p><p>remoteHost: http://55.55.52.152:44890</p><p>unregisterIfStillDownAfter: 60000</p></div></div></div></div><div id='right-column'></div><div class='clearfix'></div><div><ul></ul></div><div id='hub-config-container'><div id='hub-config-content'><b>Config for the hub :</b><br/><abbr title='browserTimeout'>browserTimeout : </abbr>0</br><abbr title='debug'>debug : </abbr>false</br><abbr title='host'>host : </abbr>55.55.52.152</br><abbr title='port'>port : </abbr>4444</br><abbr title='role'>role : </abbr>hub</br><abbr title='timeout'>timeout : </abbr>1800</br><abbr title='cleanUpCycle'>cleanUpCycle : </abbr>5000</br><abbr title='capabilityMatcher'>capabilityMatcher : </abbr>org.openqa.grid.internal.utils.DefaultCapabilityMatcher</br><abbr title='newSessionWaitTimeout'>newSessionWaitTimeout : </abbr>-1</br><abbr title='throwOnCapabilityNotPresent'>throwOnCapabilityNotPresent : </abbr>true</br><abbr title='registry'>registry : </abbr>org.openqa.grid.internal.DefaultGridRegistry</br><div id='verbose-config-container'><a id='verbose-config-view-toggle' href='#'>View Verbose</a><div id='verbose-config-content'><br/><b>The final configuration comes from:</b><br/><b>the default :</b><br/><abbr title='browserTimeout'>browserTimeout : </abbr>0</br><abbr title='debug'>debug : </abbr>false</br><abbr title='host'>host : </abbr>0.0.0.0</br><abbr title='port'>port : </abbr>4444</br><abbr title='role'>role : </abbr>hub</br><abbr title='timeout'>timeout : </abbr>1800</br><abbr title='cleanUpCycle'>cleanUpCycle : </abbr>5000</br><abbr title='capabilityMatcher'>capabilityMatcher : </abbr>org.openqa.grid.internal.utils.DefaultCapabilityMatcher"
+2019-05-03 18:41:27 DEBUG wire:86 - http-outgoing-0 << "</br><abbr title='newSessionWaitTimeout'>newSessionWaitTimeout : </abbr>-1</br><abbr title='throwOnCapabilityNotPresent'>throwOnCapabilityNotPresent : </abbr>true</br><abbr title='registry'>registry : </abbr>org.openqa.grid.internal.DefaultGridRegistry</br><b>updated with command line options:</b><br/>-role hub</div></div></div><a id='config-view-toggle' href='#'>View Config</a></div></div></body></html>"
+2019-05-03 18:41:27 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://55.55.52.152:4444] can be kept alive indefinitely
+2019-05-03 18:41:27 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://55.55.52.152:4444][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-06-24 17:44:33 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://10.10.10.231:8083
+2019-06-24 17:44:33 DEBUG DefaultClientConnectionOperator:176 - Connecting to 10.10.10.231:8083
+2019-06-24 17:44:33 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-06-24 17:44:33 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-06-24 17:44:33 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2019-06-24 17:44:33 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-06-24 17:44:33 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-06-24 17:44:33 DEBUG DefaultClientConnection:276 - Sending request: POST /dashboard HTTP/1.1
+2019-06-24 17:44:33 DEBUG wire:72 -  >> "POST /dashboard HTTP/1.1[\r][\n]"
+2019-06-24 17:44:33 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-06-24 17:44:33 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-06-24 17:44:33 DEBUG wire:72 -  >> "Content-Length: 79[\r][\n]"
+2019-06-24 17:44:33 DEBUG wire:72 -  >> "Host: 10.10.10.231:8083[\r][\n]"
+2019-06-24 17:44:33 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-06-24 17:44:33 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-06-24 17:44:33 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-06-24 17:44:33 DEBUG wire:72 -  >> "[\r][\n]"
+2019-06-24 17:44:33 DEBUG headers:280 - >> POST /dashboard HTTP/1.1
+2019-06-24 17:44:33 DEBUG headers:283 - >> Accept: */*
+2019-06-24 17:44:33 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2019-06-24 17:44:33 DEBUG headers:283 - >> Content-Length: 79
+2019-06-24 17:44:33 DEBUG headers:283 - >> Host: 10.10.10.231:8083
+2019-06-24 17:44:33 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-06-24 17:44:33 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-06-24 17:44:33 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-06-24 17:44:33 DEBUG wire:86 -  >> "{"totalPass":"9","totalTestcases":"24","totalFail":"8","productName":"testing"}"
+2019-06-24 17:44:34 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-06-24 17:44:34 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2019-06-24 17:44:34 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-06-24 17:44:34 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, PUT, GET, OPTIONS, DELETE[\r][\n]"
+2019-06-24 17:44:34 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Content-Type,X-Requested-With,accept,Origin,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization,x-auth-token[\r][\n]"
+2019-06-24 17:44:34 DEBUG wire:72 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+2019-06-24 17:44:34 DEBUG wire:72 -  << "X-Application-Context: application:8083[\r][\n]"
+2019-06-24 17:44:34 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2019-06-24 17:44:34 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2019-06-24 17:44:34 DEBUG wire:72 -  << "Date: Mon, 24 Jun 2019 12:14:34 GMT[\r][\n]"
+2019-06-24 17:44:34 DEBUG wire:72 -  << "[\r][\n]"
+2019-06-24 17:44:34 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-06-24 17:44:34 DEBUG headers:264 - << HTTP/1.1 200 OK
+2019-06-24 17:44:34 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2019-06-24 17:44:34 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-06-24 17:44:34 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, PUT, GET, OPTIONS, DELETE
+2019-06-24 17:44:34 DEBUG headers:267 - << Access-Control-Allow-Headers: Content-Type,X-Requested-With,accept,Origin,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization,x-auth-token
+2019-06-24 17:44:34 DEBUG headers:267 - << Access-Control-Max-Age: 3600
+2019-06-24 17:44:34 DEBUG headers:267 - << X-Application-Context: application:8083
+2019-06-24 17:44:34 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2019-06-24 17:44:34 DEBUG headers:267 - << Transfer-Encoding: chunked
+2019-06-24 17:44:34 DEBUG headers:267 - << Date: Mon, 24 Jun 2019 12:14:34 GMT
+2019-06-24 17:44:34 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-06-24 17:44:34 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+2019-06-24 17:44:34 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-06-24 17:44:35 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:58551<->10.10.10.231:8083 closed
+2019-06-24 17:46:00 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://10.10.10.231:8083
+2019-06-24 17:46:00 DEBUG DefaultClientConnectionOperator:176 - Connecting to 10.10.10.231:8083
+2019-06-24 17:46:00 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-06-24 17:46:00 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-06-24 17:46:00 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2019-06-24 17:46:00 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-06-24 17:46:00 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2019-06-24 17:46:00 DEBUG DefaultClientConnection:276 - Sending request: POST /dashboard HTTP/1.1
+2019-06-24 17:46:00 DEBUG wire:72 -  >> "POST /dashboard HTTP/1.1[\r][\n]"
+2019-06-24 17:46:00 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-06-24 17:46:00 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-06-24 17:46:00 DEBUG wire:72 -  >> "Content-Length: 25[\r][\n]"
+2019-06-24 17:46:00 DEBUG wire:72 -  >> "Host: 10.10.10.231:8083[\r][\n]"
+2019-06-24 17:46:00 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-06-24 17:46:00 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-06-24 17:46:00 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-06-24 17:46:00 DEBUG wire:72 -  >> "[\r][\n]"
+2019-06-24 17:46:00 DEBUG headers:280 - >> POST /dashboard HTTP/1.1
+2019-06-24 17:46:00 DEBUG headers:283 - >> Accept: */*
+2019-06-24 17:46:00 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2019-06-24 17:46:00 DEBUG headers:283 - >> Content-Length: 25
+2019-06-24 17:46:00 DEBUG headers:283 - >> Host: 10.10.10.231:8083
+2019-06-24 17:46:00 DEBUG headers:283 - >> Connection: Keep-Alive
+2019-06-24 17:46:00 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-06-24 17:46:00 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2019-06-24 17:46:00 DEBUG wire:86 -  >> "{"productName":"testing"}"
+2019-06-24 17:46:01 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-06-24 17:46:01 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2019-06-24 17:46:01 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-06-24 17:46:01 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, PUT, GET, OPTIONS, DELETE[\r][\n]"
+2019-06-24 17:46:01 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Content-Type,X-Requested-With,accept,Origin,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization,x-auth-token[\r][\n]"
+2019-06-24 17:46:01 DEBUG wire:72 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+2019-06-24 17:46:01 DEBUG wire:72 -  << "X-Application-Context: application:8083[\r][\n]"
+2019-06-24 17:46:01 DEBUG wire:72 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2019-06-24 17:46:01 DEBUG wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2019-06-24 17:46:01 DEBUG wire:72 -  << "Date: Mon, 24 Jun 2019 12:16:01 GMT[\r][\n]"
+2019-06-24 17:46:01 DEBUG wire:72 -  << "[\r][\n]"
+2019-06-24 17:46:01 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-06-24 17:46:01 DEBUG headers:264 - << HTTP/1.1 200 OK
+2019-06-24 17:46:01 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2019-06-24 17:46:01 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2019-06-24 17:46:01 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, PUT, GET, OPTIONS, DELETE
+2019-06-24 17:46:01 DEBUG headers:267 - << Access-Control-Allow-Headers: Content-Type,X-Requested-With,accept,Origin,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization,x-auth-token
+2019-06-24 17:46:01 DEBUG headers:267 - << Access-Control-Max-Age: 3600
+2019-06-24 17:46:01 DEBUG headers:267 - << X-Application-Context: application:8083
+2019-06-24 17:46:01 DEBUG headers:267 - << Content-Type: application/json;charset=UTF-8
+2019-06-24 17:46:01 DEBUG headers:267 - << Transfer-Encoding: chunked
+2019-06-24 17:46:01 DEBUG headers:267 - << Date: Mon, 24 Jun 2019 12:16:01 GMT
+2019-06-24 17:46:01 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-06-24 17:46:01 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+2019-06-24 17:46:01 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-06-24 17:46:01 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:58601<->10.10.10.231:8083 closed
